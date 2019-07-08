@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#orgecd9f79)
-    1.  [Parts List (This is what I spent on parts)](#org7b01345)
-        1.  [Retailers](#org2734fde)
-    2.  [Dimensions](#org0b907c5)
-    3.  [Step-by-step instructions](#orgf40a8c6)
-        1.  [Preparation](#org481380b)
-        2.  [Circuit design](#org4f69011)
-        3.  [Etching](#org5adb96f)
-        4.  [Wiring](#orgff64ab8)
-        5.  [PCB Layering instructions](#orgd2044b0)
-        6.  [Firmware guide](#org033196a)
+1.  [Updated Dactyl Build Guide](#org362b649)
+    1.  [Parts List (This is what I spent on parts)](#org446a215)
+        1.  [Retailers](#org8b805f2)
+    2.  [Dimensions](#org53867d1)
+    3.  [Step-by-step instructions](#orgdfe8133)
+        1.  [Preparation](#org03c8a72)
+        2.  [Circuit design](#orga654458)
+        3.  [Etching](#org6848cb5)
+        4.  [Wiring](#orgf051b6e)
+        5.  [PCB Layering instructions](#org61f4e8c)
+        6.  [Firmware guide](#org5ba9dbb)
 
 
 
-<a id="orgecd9f79"></a>
+<a id="org362b649"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="org7b01345"></a>
+<a id="org446a215"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -76,12 +76,12 @@
 </table>
 
 
-<a id="org2734fde"></a>
+<a id="org8b805f2"></a>
 
 ### Retailers
 
 
-<a id="org0b907c5"></a>
+<a id="org53867d1"></a>
 
 ## Dimensions
 
@@ -90,12 +90,12 @@
 -   Rubber feet
 
 
-<a id="orgf40a8c6"></a>
+<a id="orgdfe8133"></a>
 
 ## Step-by-step instructions
 
 
-<a id="org481380b"></a>
+<a id="org03c8a72"></a>
 
 ### Preparation
 
@@ -104,17 +104,17 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="org4f69011"></a>
+<a id="orga654458"></a>
 
 ### Circuit design
 
 
-<a id="org5adb96f"></a>
+<a id="org6848cb5"></a>
 
 ### Etching
 
 
-<a id="orgff64ab8"></a>
+<a id="orgf051b6e"></a>
 
 ### Wiring
 
@@ -132,12 +132,12 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="orgd2044b0"></a>
+<a id="org61f4e8c"></a>
 
 ### PCB Layering instructions
 
 
-<a id="org033196a"></a>
+<a id="org5ba9dbb"></a>
 
 ### Firmware guide
 

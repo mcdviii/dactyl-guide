@@ -1,68 +1,73 @@
 #+TITLE: presentation-notes
+#+AUTHOR: Tim Anderson
+#+REVEAL_THEME: moon
+#+REVEAL_TRANS: fade
 
-* TODO Finish Website & Mirror Presentation Notees
+#+BEGIN_NOTES
+ TODO Finish Website & Mirror Presentation Notees
+ TODO Gather Raw Data for Presentation
 
-* TODO Gather Raw Data for Presentation
-** Prices
-*** Ali Express for Keycap Price
-*** Digikey for Hardware Cost
-** Collect Info & Tutorial Sources for Reference
+ Prices
+ Ali Express for Keycap Price
+ Digikey for Hardware Cost
+ Collect Info & Tutorial Sources for
+ #+END_NOTES
 
-* Outline
-** Who Am I?
+* Who Am I?
 Tim Anderson
-https://github.com/mcdviii
-http://aberrent.online
+- https://github.com/mcdviii
+- http://aberrent.online
 
-- I work in manufacturing as a machine operator for a local furniture
+#+BEGIN_NOTES
+I work in manufacturing as a machine operator for a local furniture
   manufacturer.
-- I tinker with electronics & free software on my free time.
+I tinker with electronics & free software on my free time.
+#+END_NOTES
 
+* Why would you want or need this?
 ** Benefits of Ergo keyboards
-*** Why would you want or need this?
 While browsing around looking at these ergonomic keyboards I see a recurring
 question:
 "Why would you need/want that."
 It seems like a fair question. I imagine in the eyes of an uninitiated it would
 seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
 But I would argue there are real health benefits to using a proper ergonomic keyboard.
-**** My personal reasons
-***** I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
-**** History of Typwriter According to Matt Addereth
-**** Other relatable reasons (Programmers, emacs pinky)
-***** Only a normie would use an OEM keyboard!
-*** RSI Injuries & How to Avoid Them
+*** My personal reasons
+**** I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
+*** History of Typwriter According to Matt Addereth
+*** Other relatable reasons (Programmers, emacs pinky)
+**** Only a normie would use an OEM keyboard!
+** RSI Injuries & How to Avoid Them
 - I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
-**** Ulnar deviation
-** Notable Mentions
-*** Kinesis Advantage2
+*** Ulnar deviation
+* Notable Mentions
+** Kinesis Advantage2
 
-#+NAME kinesis
 [[file:img/818T--WBwvL._SL1500_.jpg]]
 
 - Advantages:
 - Disadvanteges: $320.00 USD
 - Open Source: No
-*** ErgoDox
-*** Let's Split
-*** Atreus
-*** Signum (Troy Fletcher)
-*** Other Dactyl Variations
-**** Ergo Dactyl
-**** Lightcycle Dactyl
-**** Dactyl Manuform
-** What is the Dactyl Keyboard?
-*** History or Background
-**** Matt's Clojurcon Youtube Video
-**** Matt's Reasons for making the design
-**** Dactyl was Written in Clojure with the Help of OpenSCAD
-*** Reasons for Choosing Dactyl
+** ErgoDox
+** Let's Split
+** Atreus
+** Signum (Troy Fletcher)
+** Other Dactyl Variations
+*** Ergo Dactyl
+*** Lightcycle Dactyl
+*** Dactyl Manuform
+* What is the Dactyl Keyboard?
+** History or Background
+*** Matt's Clojurcon Youtube Video
+*** Matt's Reasons for making the design
+*** Dactyl was Written in Clojure with the Help of OpenSCAD
+** Reasons for Choosing Dactyl
 - Kinesis Advantage form factor
 - Open Source
 - Looked like the most comfortable design
 - Also looked hella cool
-** Dactyl Project
-*** My Reasons for Building by Hand Instead of Purchasing
+* Dactyl Project
+** My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
 - Sense of self-satisfaction
 - Building my own helps me to improve the project by contributing personal
@@ -70,18 +75,20 @@ But I would argue there are real health benefits to using a proper ergonomic key
 - I already own a 3D printer
 - Screw paying someone else >$300, I'll just build my own!
 - One year later joke
-*** Build Overview
-**** Shell/Case
-**** Switches & Keycaps
-**** Hardware
-**** PCB & Wiring
-**** Firmware
-**** How Does it Work?
-- Magic!
-**** Challenges
-** Where To Buy
+** Build Overview
+*** Shell/Case
+*** Switches & Keycaps
+*** Hardware
+*** PCB & Wiring
+*** Firmware
+*** How Does it Work?
+- Explain matrix positions
+*** Challenges
+- Which way to wire the diodes
+- How the keyboard is controlled by the MC (key matrix)
+* Where To Buy
 - I have no affiliation or experience with the following. YMMV!
-*** MassDrop
+** MassDrop
 - Crowd sourced limited manufacturing.
-*** ErgodoxEZ
-*** OhKeycaps.com
+** ErgodoxEZ
+** OhKeycaps.com
