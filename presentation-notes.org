@@ -11,7 +11,7 @@
 * Outline
 ** Who Am I?
 Tim Anderson
-@mcdviii on github
+https://github.com/mcdviii
 http://aberrent.online
 
 - I work in manufacturing as a machine operator for a local furniture
@@ -34,12 +34,17 @@ But I would argue there are real health benefits to using a proper ergonomic key
 *** RSI Injuries & How to Avoid Them
 - I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
 **** Ulnar deviation
-** Open Source Keyboard Projects
-*** Kinesis Advantage Pro
+** Notable Mentions
+*** Kinesis Advantage2
+#+NAME kinesis
+[[file:img/818T--WBwvL._SL1500_.jpg]]
+Advantages:
+Disadvanteges: $320.00 USD
+Open Source: No
 *** ErgoDox
+*** Let's Split
 *** Atreus
 *** Signum (Troy Fletcher)
-*** Let's Split
 *** Other Dactyl Variations
 **** Ergo Dactyl
 **** Lightcycle Dactyl
@@ -52,12 +57,11 @@ But I would argue there are real health benefits to using a proper ergonomic key
 *** Reasons for Choosing Dactyl
 - Kinesis Advantage form factor
 - Open Source
-- Most comfortable design
-- Just look at it
+- Looked like the most comfortable design
+- Also looked hella cool
 ** Dactyl Project
 *** My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
-- Nerd cred
 - Sense of self-satisfaction
 - Building my own helps me to improve the project by contributing personal
   improvements back (Open Source)
@@ -72,10 +76,10 @@ But I would argue there are real health benefits to using a proper ergonomic key
 **** Firmware
 **** How Does it Work?
 - Magic!
+**** Challenges
 ** Where To Buy
 - I have no affiliation or experience with the following. YMMV!
 *** MassDrop
 - Crowd sourced limited manufacturing.
 *** ErgodoxEZ
 *** OhKeycaps.com
-** Conclusion
