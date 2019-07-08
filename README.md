@@ -1,26 +1,27 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org362b649)
-    1.  [Parts List (This is what I spent on parts)](#org446a215)
-        1.  [Retailers](#org8b805f2)
-    2.  [Dimensions](#org53867d1)
-    3.  [Step-by-step instructions](#orgdfe8133)
-        1.  [Preparation](#org03c8a72)
-        2.  [Circuit design](#orga654458)
-        3.  [Etching](#org6848cb5)
-        4.  [Wiring](#orgf051b6e)
-        5.  [PCB Layering instructions](#org61f4e8c)
-        6.  [Firmware guide](#org5ba9dbb)
+1.  [Updated Dactyl Build Guide](#org8855fa5)
+    1.  [Parts List (This is what I spent on parts)](#org6bec38e)
+        1.  [Retailers](#org9b6622e)
+    2.  [Dimensions](#org77d35b5)
+    3.  [Step-by-step instructions](#orga1ce90c)
+        1.  [Preparation](#org7575549)
+        2.  [Circuit design](#orgddc8e5f)
+        3.  [Notes on Xerox direct-print to Pyralux](#org1aca48f)
+        4.  [Etching](#org1656a59)
+        5.  [Wiring](#orgd5ef5df)
+        6.  [PCB Layering instructions](#org2a6f247)
+        7.  [Firmware guide](#org95cb5cb)
 
 
 
-<a id="org362b649"></a>
+<a id="org8855fa5"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="org446a215"></a>
+<a id="org6bec38e"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -76,12 +77,12 @@
 </table>
 
 
-<a id="org8b805f2"></a>
+<a id="org9b6622e"></a>
 
 ### Retailers
 
 
-<a id="org53867d1"></a>
+<a id="org77d35b5"></a>
 
 ## Dimensions
 
@@ -90,12 +91,12 @@
 -   Rubber feet
 
 
-<a id="orgdfe8133"></a>
+<a id="orga1ce90c"></a>
 
 ## Step-by-step instructions
 
 
-<a id="org03c8a72"></a>
+<a id="org7575549"></a>
 
 ### Preparation
 
@@ -104,17 +105,22 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="orga654458"></a>
+<a id="orgddc8e5f"></a>
 
 ### Circuit design
 
 
-<a id="org6848cb5"></a>
+<a id="org1aca48f"></a>
+
+### Notes on Xerox direct-print to Pyralux
+
+
+<a id="org1656a59"></a>
 
 ### Etching
 
 
-<a id="orgf051b6e"></a>
+<a id="orgd5ef5df"></a>
 
 ### Wiring
 
@@ -132,12 +138,12 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="org61f4e8c"></a>
+<a id="org2a6f247"></a>
 
 ### PCB Layering instructions
 
 
-<a id="org5ba9dbb"></a>
+<a id="org95cb5cb"></a>
 
 ### Firmware guide
 

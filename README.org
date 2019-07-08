@@ -31,6 +31,7 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 *** Circuit design
+*** Notes on Xerox direct-print to Pyralux
 
 *** Etching
 
