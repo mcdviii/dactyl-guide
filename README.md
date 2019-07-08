@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org71bf6ed)
-    1.  [Parts List (This is what I spent on parts)](#orgc31fcf1)
-        1.  [Retailers](#orgb3d3162)
-    2.  [Dimensions](#org38a5b97)
-    3.  [Step-by-step instructions](#orgd31e664)
-        1.  [Preparation](#org76ec012)
-        2.  [Circuit design](#orge3907b9)
-        3.  [Etching](#orgbe395ee)
-        4.  [Wiring](#org06fd733)
-        5.  [PCB Layering instructions](#orgba996cb)
-        6.  [Firmware guide](#org69b4875)
+1.  [Updated Dactyl Build Guide](#org47d23c6)
+    1.  [Parts List (This is what I spent on parts)](#orgacc8fa1)
+        1.  [Retailers](#org9427fbf)
+    2.  [Dimensions](#org26c9e26)
+    3.  [Step-by-step instructions](#orgc50efc4)
+        1.  [Preparation](#org27c9d63)
+        2.  [Circuit design](#org55a78dc)
+        3.  [Etching](#orgeca5332)
+        4.  [Wiring](#org4511828)
+        5.  [PCB Layering instructions](#org8a7c506)
+        6.  [Firmware guide](#org26c8ff9)
 
 
 
-<a id="org71bf6ed"></a>
+<a id="org47d23c6"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="orgc31fcf1"></a>
+<a id="orgacc8fa1"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -76,12 +76,12 @@
 </table>
 
 
-<a id="orgb3d3162"></a>
+<a id="org9427fbf"></a>
 
 ### Retailers
 
 
-<a id="org38a5b97"></a>
+<a id="org26c9e26"></a>
 
 ## Dimensions
 
@@ -90,12 +90,12 @@
 -   Rubber feet
 
 
-<a id="orgd31e664"></a>
+<a id="orgc50efc4"></a>
 
 ## Step-by-step instructions
 
 
-<a id="org76ec012"></a>
+<a id="org27c9d63"></a>
 
 ### Preparation
 
@@ -104,17 +104,17 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="orge3907b9"></a>
+<a id="org55a78dc"></a>
 
 ### Circuit design
 
 
-<a id="orgbe395ee"></a>
+<a id="orgeca5332"></a>
 
 ### Etching
 
 
-<a id="org06fd733"></a>
+<a id="org4511828"></a>
 
 ### Wiring
 
@@ -132,12 +132,12 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="orgba996cb"></a>
+<a id="org8a7c506"></a>
 
 ### PCB Layering instructions
 
 
-<a id="org69b4875"></a>
+<a id="org26c8ff9"></a>
 
 ### Firmware guide
 
@@ -147,9 +147,8 @@ heatshrink tubing works best.
     -   Change defaults as necessary.
     -   Click on 'COMPILE'.
     -   Once finised, download the .hex file by clicking 'FIRMWARE'. (Consider saving the keymap.json file for future reference.)
-    -   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0.
-    -   Follow gui instructions.
+    -   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0. Follow gui instructions.
     -   For GNU+Linux, use your package manager to search for the teensy-loader-cli
         (or some variation therof) command-line tool. Use the following syntax to
-        flash your chosen hex file: \`$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex'
+        flash your chosen hex file: '$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex'
 
