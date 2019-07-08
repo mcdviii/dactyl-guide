@@ -1,6 +1,5 @@
-#+TITLE: Dactyl-ToDo
+#+TITLE: Updated Dactyl Build Guide
 
-* Updated Dactyl Build Guide
 ** Parts List (This is what I spent on parts)
 
 | Parts:                            | Cost in USD: |
