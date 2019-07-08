@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org2f1635e)
-    1.  [Parts List (This is what I spent on parts)](#org1e0bc9a)
-        1.  [Retailers](#org8219a0a)
-    2.  [Dimensions](#org2922d44)
-    3.  [Step-by-step instructions](#org8d014ea)
-        1.  [Preparation](#org3502a1f)
-        2.  [Circuit design](#org2047e14)
-        3.  [Etching](#orgb02176e)
-        4.  [Wiring](#orgf3e1b29)
-        5.  [PCB Layering instructions](#orgb9d394b)
-        6.  [Firmware guide](#org976be59)
+1.  [Updated Dactyl Build Guide](#org71bf6ed)
+    1.  [Parts List (This is what I spent on parts)](#orgc31fcf1)
+        1.  [Retailers](#orgb3d3162)
+    2.  [Dimensions](#org38a5b97)
+    3.  [Step-by-step instructions](#orgd31e664)
+        1.  [Preparation](#org76ec012)
+        2.  [Circuit design](#orge3907b9)
+        3.  [Etching](#orgbe395ee)
+        4.  [Wiring](#org06fd733)
+        5.  [PCB Layering instructions](#orgba996cb)
+        6.  [Firmware guide](#org69b4875)
 
 
 
-<a id="org2f1635e"></a>
+<a id="org71bf6ed"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="org1e0bc9a"></a>
+<a id="orgc31fcf1"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -76,12 +76,12 @@
 </table>
 
 
-<a id="org8219a0a"></a>
+<a id="orgb3d3162"></a>
 
 ### Retailers
 
 
-<a id="org2922d44"></a>
+<a id="org38a5b97"></a>
 
 ## Dimensions
 
@@ -90,12 +90,12 @@
 -   Rubber feet
 
 
-<a id="org8d014ea"></a>
+<a id="orgd31e664"></a>
 
 ## Step-by-step instructions
 
 
-<a id="org3502a1f"></a>
+<a id="org76ec012"></a>
 
 ### Preparation
 
@@ -104,17 +104,17 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="org2047e14"></a>
+<a id="orge3907b9"></a>
 
 ### Circuit design
 
 
-<a id="orgb02176e"></a>
+<a id="orgbe395ee"></a>
 
 ### Etching
 
 
-<a id="orgf3e1b29"></a>
+<a id="org06fd733"></a>
 
 ### Wiring
 
@@ -132,29 +132,24 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="orgb9d394b"></a>
+<a id="orgba996cb"></a>
 
 ### PCB Layering instructions
 
 
-<a id="org976be59"></a>
+<a id="org69b4875"></a>
 
 ### Firmware guide
 
 1.  config.qmk.fm
 
-    Under board, choose 'handwired/dactyl'.
-    Change defaults as necessary.
-    Click on 'COMPILE'.
-    Once finised, download the .hex file by clicking 'FIRMWARE'.
-    
-    -   Consider saving the keymap.json file for future reference.
-    
-    For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0.
-    Follow gui instructions.
-    For GNU+Linux, use your package manager to search for the teensy-loader-cli (or
-    some variation therof) command-line tool. Use the following syntax to flash your
-    chosen hex file:
-    
-    -   $ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex
+    -   Under board, choose 'handwired/dactyl'.
+    -   Change defaults as necessary.
+    -   Click on 'COMPILE'.
+    -   Once finised, download the .hex file by clicking 'FIRMWARE'. (Consider saving the keymap.json file for future reference.)
+    -   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0.
+    -   Follow gui instructions.
+    -   For GNU+Linux, use your package manager to search for the teensy-loader-cli
+        (or some variation therof) command-line tool. Use the following syntax to
+        flash your chosen hex file: \`$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex'
 
