@@ -49,14 +49,58 @@ But I would argue there are real health benefits to using a proper ergonomic key
 - Disadvanteges: $320.00 USD
 - Open Source: No
 ** ErgoDox
+
+[[file:img/Ergodox_EZ.jpg]]
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 ** Let's Split
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 ** Atreus
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 ** Signum (Troy Fletcher)
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 ** Other Dactyl Variations
 *** Ergo Dactyl
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 *** Lightcycle Dactyl
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 *** Dactyl Manuform
+
+
+- Advantages:
+- Disadvantages:
+- Open Source:
+
 * What is the Dactyl Keyboard?
+- Columnar, Ortholinear, written in Clojure
 ** History or Background
 *** Matt's Clojurcon Youtube Video
 *** Matt's Reasons for making the design

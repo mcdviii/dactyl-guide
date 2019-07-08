@@ -15,9 +15,9 @@
 |-----------------------------------+--------------|
 | Pyralux (Flexible copper for PCB) |        30.00 |
 |-----------------------------------+--------------|
-|                                   |    total([]) |
+| Total:                            |    total([]) |
 |                                   |              |
-#+TBLFM: $2=total($0..$4)
+#+TBLFM: $2=total($1..$5)
 
 - Price considerations
   This table represents what I purchased my hartware for. YMMV.
@@ -27,9 +27,9 @@
   around the $50-$60 price point.
 
 *** Retailers
-[[https://www.aliexpress.com]]
-[[https://www.digikey.com]]
-[[https://www.kbdfans.com]]
+- [[https://www.aliexpress.com]]
+- [[https://www.digikey.com]]
+[[- https://www.kbdfans.com]]
 
 ** Part Dimensions & Other Considerations
 
