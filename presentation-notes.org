@@ -1,5 +1,6 @@
 #+TITLE: presentation-notes
 
+* TODO Finish Website & Mirror Presentation Notees
 
 * TODO Gather Raw Data for Presentation
 ** Prices
