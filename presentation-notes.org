@@ -48,7 +48,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 [[file:img/Kinesis_Adv2.jpg]]
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvanteges: $320.00 USD
 - Open Source: No
@@ -60,7 +60,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 [[file:img/Ergodox_EZ.jpg]]
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -72,7 +72,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 [[file:img/Let's_Split.jpg]]
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -84,7 +84,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 [[file:img/Atreus.jpg]]
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages: Small, single-board formfactor
 - Disadvantages: Not a split design,
 - Open Source: Yes
@@ -96,12 +96,12 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 [[file:img/Signum3.0.jpg]]
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-
+Notable differences between the Signum 3 & Atreus are the thumb clusters.
 #+END_NOTES
 
 ** Other Dactyl Variations
@@ -109,7 +109,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -122,7 +122,7 @@ Redesigned to fit Ergodox keycaps.
 
 
 
-#+ATTR_REVEAL: :frag (fade-in fade-in) :frag_idx (1 2 3)
+#+ATTR_REVEAL: :frag (fade-in fade-in)  1 2)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -173,8 +173,8 @@ Redesigned to fit Ergodox keycaps.
 - Which way to wire the diodes
 - How the keyboard is controlled by the MC (key matrix)
 * Where To Buy
-- I have no affiliation or experience with the following. YMMV!
-** MassDrop
-- Crowd sourced limited manufacturing.
-** ErgodoxEZ
-** OhKeycaps.com
+I have no affiliation or experience with the following. YMMV!
+- [[https://drop.com][Drop.com (formerly MassDrop)]]
+Crowd sourced, limited manufacturing.
+- [[https://ergodox-ez.com][Ergodox EZ]]
+- [[https://ohkeycaps.com][OhKeycaps.com]]

@@ -118,7 +118,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 <div class="NOTES">
-
+Notable differences between the Signum 3 & Atreus are the thumb clusters.
 
 </div>
 
@@ -232,16 +232,12 @@ Redesigned to fit Ergodox keycaps.
 
 # Where To Buy
 
--   I have no affiliation or experience with the following. YMMV!
+I have no affiliation or experience with the following. YMMV!
 
+-   [Drop.com (formerly MassDrop)](https://drop.com)
 
-## MassDrop
+Crowd sourced, limited manufacturing.
 
--   Crowd sourced limited manufacturing.
-
-
-## ErgodoxEZ
-
-
-## OhKeycaps.com
+-   [Ergodox EZ](https://ergodox-ez.com)
+-   [OhKeycaps.com](https://ohkeycaps.com)
 
