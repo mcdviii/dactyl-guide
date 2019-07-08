@@ -1,27 +1,29 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org8855fa5)
-    1.  [Parts List (This is what I spent on parts)](#org6bec38e)
-        1.  [Retailers](#org9b6622e)
-    2.  [Dimensions](#org77d35b5)
-    3.  [Step-by-step instructions](#orga1ce90c)
-        1.  [Preparation](#org7575549)
-        2.  [Circuit design](#orgddc8e5f)
-        3.  [Notes on Xerox direct-print to Pyralux](#org1aca48f)
-        4.  [Etching](#org1656a59)
-        5.  [Wiring](#orgd5ef5df)
-        6.  [PCB Layering instructions](#org2a6f247)
-        7.  [Firmware guide](#org95cb5cb)
+1.  [Updated Dactyl Build Guide](#org0bd6be6)
+    1.  [Parts List (This is what I spent on parts)](#org77ce1fc)
+        1.  [Retailers](#orgc3d919a)
+    2.  [Part Dimensions & Other Considerations](#orgd7f51d8)
+        1.  [Key Switches](#org4cd663a)
+        2.  [Key Caps](#org22bbf0b)
+    3.  [Step-by-step instructions](#orga32f3f2)
+        1.  [Preparation](#orged47b6d)
+        2.  [Circuit design](#org3a70ffd)
+        3.  [Notes on Xerox direct-print to Pyralux](#org41a6b61)
+        4.  [Etching](#orgfa58449)
+        5.  [Wiring](#org8560bf8)
+        6.  [PCB Layering instructions](#org968141e)
+        7.  [Firmware guide](#org36f3c24)
 
 
 
-<a id="org8855fa5"></a>
+<a id="org0bd6be6"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="org6bec38e"></a>
+<a id="org77ce1fc"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -49,54 +51,150 @@
 
 <tbody>
 <tr>
-<td class="org-left">Key Switches</td>
-<td class="org-right">500000</td>
+<td class="org-left">70ct Key Switches</td>
+<td class="org-right">50.00</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">Rubber O-Rings for Switches</td>
+<td class="org-right">7.00</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Key Caps</td>
-<td class="org-right">500000</td>
+<td class="org-right">83.00</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Pyralux (Flexible copper for PCB)</td>
-<td class="org-right">600000</td>
+<td class="org-right">30.00</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-<td class="org-left">Total:</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-right">total([])</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+-   Price considerations
+    This table represents what I purchased my hartware for. YMMV.
+-   You can get switch-dampening o-rings for as little as $2.00 if you're willing
+    to wait for them to ship from China.
+-   I splurged on my keycaps. Generally you're going to see them on Ali Express at
+    around the $50-$60 price point.
+
+
+<a id="orgc3d919a"></a>
+
+### Retailers
+
+<https://www.aliexpress.com>
+<https://www.digikey.com>
+<https://www.kbdfans.com>
+
+
+<a id="orgd7f51d8"></a>
+
+## Part Dimensions & Other Considerations
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Part:</th>
+<th scope="col" class="org-left">Dimension or special consideration:</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Screws</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">Standoffs</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">Rubber feet</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org9b6622e"></a>
+<a id="org4cd663a"></a>
 
-### Retailers
+### Key Switches
+
+-   Switch Type: It's best to use SMD (Surface Mount Device) switches. I purchased regular ones
+    and ended up clipping all of the little plastic orientation pins off. Not a
+    huge deal, but SMD switches are what you want
+-   Cherry MX: is the premium key switch brand on the market. I highly recommend
+    one of the 9 switch testers you can pick up for about $13.00. Tere are about
+    3 steps in variation between no clicks to loud clicks & linear feel to tactile feel.
+-   Knockoffs: I've only had experience with Gaterons. They are very much like
+    Cherry MXs but have much less of a tactile feel. A good rule of thumb is to get
+    the next most tactile model above whatever Cherry MX switch you prefer.
 
 
-<a id="org77d35b5"></a>
+<a id="org22bbf0b"></a>
 
-## Dimensions
+### Key Caps
 
--   Screws
--   Standoffs
--   Rubber feet
+1.  Profile:
+
+    If you look at a mechanical keyboard from the side, you'll notice that the tops
+    of the keys form a curve to allow for better comfort while typing. There are
+    different styles available out there for this. For the Dactyl, the SA profile
+    will be the best.
+    
+    -   OEM:
+    -   SA:
+
+2.  Material:
+
+    You'll see two main types of material more than any others: ABS & PBT.
+    
+    -   ABS: The advantege of ABS is that it's more cost-effective (cheaper).
+        The disadvantage is that it fades over time. If you're spending a lot on your
+        keycaps and want them to last you should consider this.
+    -   PBT:
 
 
-<a id="orga1ce90c"></a>
+<a id="orga32f3f2"></a>
 
 ## Step-by-step instructions
 
 
-<a id="org7575549"></a>
+<a id="orged47b6d"></a>
 
 ### Preparation
 
@@ -105,30 +203,29 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="orgddc8e5f"></a>
+<a id="org3a70ffd"></a>
 
 ### Circuit design
 
 
-<a id="org1aca48f"></a>
+<a id="org41a6b61"></a>
 
 ### Notes on Xerox direct-print to Pyralux
 
 
-<a id="org1656a59"></a>
+<a id="orgfa58449"></a>
 
 ### Etching
 
 
-<a id="orgd5ef5df"></a>
+<a id="org8560bf8"></a>
 
 ### Wiring
 
 1.  TODO Prerequisites
 
     -   How does this work?
-    
-    Key matrix explanation
+    -   Key matrix explanation
 
 2.  Diode position (Row-driven vs. Column-driven )
 
@@ -138,12 +235,12 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="org2a6f247"></a>
+<a id="org968141e"></a>
 
 ### PCB Layering instructions
 
 
-<a id="org95cb5cb"></a>
+<a id="org36f3c24"></a>
 
 ### Firmware guide
 

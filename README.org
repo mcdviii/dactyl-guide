@@ -7,22 +7,67 @@
 |-----------------------------------+--------------|
 | 3D Printed Shells                 |       400000 |
 |-----------------------------------+--------------|
-| Key Switches                      |       500000 |
+| 70ct Key Switches                 |        50.00 |
 |-----------------------------------+--------------|
-| Key Caps                          |       500000 |
+| Rubber O-Rings for Switches       |         7.00 |
 |-----------------------------------+--------------|
-| Pyralux (Flexible copper for PCB) |       600000 |
+| Key Caps                          |        83.00 |
 |-----------------------------------+--------------|
-| Total:                            |    total([]) |
+| Pyralux (Flexible copper for PCB) |        30.00 |
+|-----------------------------------+--------------|
+|                                   |    total([]) |
+|                                   |              |
 #+TBLFM: $2=total($0..$4)
 
+- Price considerations
+  This table represents what I purchased my hartware for. YMMV.
+- You can get switch-dampening o-rings for as little as $2.00 if you're willing
+  to wait for them to ship from China.
+- I splurged on my keycaps. Generally you're going to see them on Ali Express at
+  around the $50-$60 price point.
+
 *** Retailers
+[[https://www.aliexpress.com]]
+[[https://www.digikey.com]]
+[[https://www.kbdfans.com]]
 
+** Part Dimensions & Other Considerations
 
-** Dimensions
-- Screws
-- Standoffs
-- Rubber feet
+| Part:                     | Dimension or special consideration: |
+|---------------------------+-------------------------------------|
+| Screws                    |                                     |
+|---------------------------+-------------------------------------|
+| Standoffs                 |                                     |
+|---------------------------+-------------------------------------|
+| Rubber feet               |                                     |
+|---------------------------+-------------------------------------|
+
+*** Key Switches
+- Switch Type: It's best to use SMD (Surface Mount Device) switches. I purchased regular ones
+  and ended up clipping all of the little plastic orientation pins off. Not a
+  huge deal, but SMD switches are what you want
+- Cherry MX: is the premium key switch brand on the market. I highly recommend
+  one of the 9 switch testers you can pick up for about $13.00. Tere are about
+  3 steps in variation between no clicks to loud clicks & linear feel to tactile feel.
+- Knockoffs: I've only had experience with Gaterons. They are very much like
+  Cherry MXs but have much less of a tactile feel. A good rule of thumb is to get
+  the next most tactile model above whatever Cherry MX switch you prefer.
+
+*** Key Caps
+**** Profile:
+If you look at a mechanical keyboard from the side, you'll notice that the tops
+of the keys form a curve to allow for better comfort while typing. There are
+different styles available out there for this. For the Dactyl, the SA profile
+will be the best.
+- OEM:
+- SA:
+
+**** Material:
+You'll see two main types of material more than any others: ABS & PBT.
+- ABS: The advantege of ABS is that it's more cost-effective (cheaper).
+  The disadvantage is that it fades over time. If you're spending a lot on your
+  keycaps and want them to last you should consider this.
+- PBT:
 
 ** Step-by-step instructions
 *** Preparation
@@ -38,7 +83,7 @@ heatshrink tubing works best.
 *** Wiring
 **** TODO Prerequisites
 - How does this work?
-Key matrix explanation
+- Key matrix explanation
 **** Diode position (Row-driven vs. Column-driven )
 You will need to consider the position of the diodes depending upon how you want
 the current from your microcontroller to flow.
