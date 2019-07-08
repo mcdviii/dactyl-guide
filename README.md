@@ -1,31 +1,32 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org0bd6be6)
-    1.  [Parts List (This is what I spent on parts)](#org77ce1fc)
-        1.  [Retailers](#orgc3d919a)
-    2.  [Part Dimensions & Other Considerations](#orgd7f51d8)
-        1.  [Key Switches](#org4cd663a)
-        2.  [Key Caps](#org22bbf0b)
-    3.  [Step-by-step instructions](#orga32f3f2)
-        1.  [Preparation](#orged47b6d)
-        2.  [Circuit design](#org3a70ffd)
-        3.  [Notes on Xerox direct-print to Pyralux](#org41a6b61)
-        4.  [Etching](#orgfa58449)
-        5.  [Wiring](#org8560bf8)
-        6.  [PCB Layering instructions](#org968141e)
-        7.  [Firmware guide](#org36f3c24)
+1.  [Parts List](#org87753fa)
+    1.  [Retailers](#orga406b28)
+2.  [Part Dimensions & Other Considerations](#org52fa390)
+    1.  [Key Switches](#orga88e80a)
+    2.  [Key Caps](#org1b39150)
+        1.  [Profile:](#orgc4e4eeb)
+        2.  [Material:](#org05f4198)
+3.  [Step-by-step instructions](#org0ee1763)
+    1.  [Preparation](#orga17824e)
+    2.  [Circuit design](#org6273d55)
+    3.  [Notes on Xerox direct-print to Pyralux](#orgc8497d8)
+    4.  [Etching](#orga44fd16)
+    5.  [Wiring](#org71c4ca7)
+        1.  [Prerequisites](#org0697e7f)
+        2.  [Diode position (Row-driven vs. Column-driven )](#org3ef9458)
+    6.  [PCB Layering instructions](#org75ca24c)
+    7.  [Firmware guide](#orgd127d00)
+        1.  [config.qmk.fm](#orgb8e76ea)
 
 
 
-<a id="org0bd6be6"></a>
+<a id="org87753fa"></a>
 
-# Updated Dactyl Build Guide
+# Parts List
 
-
-<a id="org77ce1fc"></a>
-
-## Parts List (This is what I spent on parts)
+Things you'll need.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -45,7 +46,7 @@
 <tbody>
 <tr>
 <td class="org-left">3D Printed Shells</td>
-<td class="org-right">400000</td>
+<td class="org-right">100.00</td>
 </tr>
 </tbody>
 
@@ -59,14 +60,14 @@
 <tbody>
 <tr>
 <td class="org-left">Rubber O-Rings for Switches</td>
-<td class="org-right">7.00</td>
+<td class="org-right">2.00</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Key Caps</td>
-<td class="org-right">83.00</td>
+<td class="org-right">50.00</td>
 </tr>
 </tbody>
 
@@ -79,7 +80,7 @@
 
 <tbody>
 <tr>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Total:</td>
 <td class="org-right">total([])</td>
 </tr>
 
@@ -99,18 +100,18 @@
     around the $50-$60 price point.
 
 
-<a id="orgc3d919a"></a>
+<a id="orga406b28"></a>
 
-### Retailers
+## Retailers
 
-<https://www.aliexpress.com>
-<https://www.digikey.com>
-<https://www.kbdfans.com>
+-   <https://www.aliexpress.com>
+-   <https://www.digikey.com>
+-   <https://kbdfans.com>
 
 
-<a id="orgd7f51d8"></a>
+<a id="org52fa390"></a>
 
-## Part Dimensions & Other Considerations
+# Part Dimensions & Other Considerations
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -150,9 +151,9 @@
 </table>
 
 
-<a id="org4cd663a"></a>
+<a id="orga88e80a"></a>
 
-### Key Switches
+## Key Switches
 
 -   Switch Type: It's best to use SMD (Surface Mount Device) switches. I purchased regular ones
     and ended up clipping all of the little plastic orientation pins off. Not a
@@ -165,93 +166,108 @@
     the next most tactile model above whatever Cherry MX switch you prefer.
 
 
-<a id="org22bbf0b"></a>
+<a id="org1b39150"></a>
 
-### Key Caps
-
-1.  Profile:
-
-    If you look at a mechanical keyboard from the side, you'll notice that the tops
-    of the keys form a curve to allow for better comfort while typing. There are
-    different styles available out there for this. For the Dactyl, the SA profile
-    will be the best.
-    
-    -   OEM:
-    -   SA:
-
-2.  Material:
-
-    You'll see two main types of material more than any others: ABS & PBT.
-    
-    -   ABS: The advantege of ABS is that it's more cost-effective (cheaper).
-        The disadvantage is that it fades over time. If you're spending a lot on your
-        keycaps and want them to last you should consider this.
-    -   PBT:
+## Key Caps
 
 
-<a id="orga32f3f2"></a>
+<a id="orgc4e4eeb"></a>
 
-## Step-by-step instructions
+### Profile:
+
+If you look at a mechanical keyboard from the side, you'll notice that the tops
+of the keys form a curve to allow for better comfort while typing. There are
+different styles available out there for this. For the Dactyl, the SA profile
+will be the best.
+
+-   OEM:
+-   SA:
 
 
-<a id="orged47b6d"></a>
+<a id="org05f4198"></a>
 
-### Preparation
+### Material:
+
+You'll see two main types of material more than any others: ABS & PBT.
+
+-   ABS: The advantege of ABS is that it's more cost-effective (cheaper).
+    The disadvantage is that it fades over time. If you're spending a lot on your
+    keycaps and want them to last you should consider this.
+-   PBT:
+
+
+<a id="org0ee1763"></a>
+
+# Step-by-step instructions
+
+
+<a id="orga17824e"></a>
+
+## Preparation
 
 Use soldering iron to push countersunk screws into plastic shell.
 Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/8"
 heatshrink tubing works best.
 
 
-<a id="org3a70ffd"></a>
+<a id="org6273d55"></a>
 
-### Circuit design
-
-
-<a id="org41a6b61"></a>
-
-### Notes on Xerox direct-print to Pyralux
+## Circuit design
 
 
-<a id="orgfa58449"></a>
+<a id="orgc8497d8"></a>
 
-### Etching
-
-
-<a id="org8560bf8"></a>
-
-### Wiring
-
-1.  TODO Prerequisites
-
-    -   How does this work?
-    -   Key matrix explanation
-
-2.  Diode position (Row-driven vs. Column-driven )
-
-    You will need to consider the position of the diodes depending upon how you want
-    the current from your microcontroller to flow.
-    For a row-driven keyboard, the cathode ends of the diodes should face away from the switch pin. This
-    allows the current to flow from the row, through the switch and out through the column.
+## Notes on Xerox direct-print to Pyralux
 
 
-<a id="org968141e"></a>
+<a id="orga44fd16"></a>
 
-### PCB Layering instructions
+## Etching
 
 
-<a id="org36f3c24"></a>
+<a id="org71c4ca7"></a>
 
-### Firmware guide
+## Wiring
 
-1.  config.qmk.fm
 
-    -   Under board, choose 'handwired/dactyl'.
-    -   Change defaults as necessary.
-    -   Click on 'COMPILE'.
-    -   Once finished, download the .hex file by clicking 'FIRMWARE'. (Consider saving the keymap.json file for future reference.)
-    -   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0. Follow gui instructions.
-    -   For GNU+Linux, use your package manager to search for the teensy-loader-cli
-        (or some variation therof) command-line tool. Use the following syntax to
-        flash your chosen hex file: `$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex`
+<a id="org0697e7f"></a>
+
+### TODO Prerequisites
+
+-   How does this work?
+-   Key matrix explanation
+
+
+<a id="org3ef9458"></a>
+
+### Diode position (Row-driven vs. Column-driven )
+
+You will need to consider the position of the diodes depending upon how you want
+the current from your microcontroller to flow.
+For a row-driven keyboard, the cathode ends of the diodes should face away from the switch pin. This
+allows the current to flow from the row, through the switch and out through the column.
+
+
+<a id="org75ca24c"></a>
+
+## PCB Layering instructions
+
+
+<a id="orgd127d00"></a>
+
+## Firmware guide
+
+
+<a id="orgb8e76ea"></a>
+
+### config.qmk.fm
+
+-   Under board, choose 'handwired/dactyl'.
+-   Change defaults as necessary.
+-   Click on 'COMPILE'.
+-   Once finished, download the .hex file by clicking 'FIRMWARE'. (Consider saving the keymap.json file for future reference.)
+-   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0. Follow gui instructions.
+-   For GNU+Linux, use your package manager to search for the teensy-loader-cli
+    (or some variation therof) command-line tool. Use the following syntax to
+    flash your chosen hex file: `$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex`
 
