@@ -32,7 +32,7 @@ Things you'll need.
 *** Retailers
 - [[https://www.aliexpress.com]]
 - [[https://www.digikey.com]]
-[[- https://www.kbdfans.com]]
+- [[https://kbdfans.com]]
 
 ** Part Dimensions & Other Considerations
 
