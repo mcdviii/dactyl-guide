@@ -150,5 +150,9 @@ heatshrink tubing works best.
     -   For MacOS & Windows, use the qmk-toolbox application to flash the Teensy 2.0. Follow gui instructions.
     -   For GNU+Linux, use your package manager to search for the teensy-loader-cli
         (or some variation therof) command-line tool. Use the following syntax to
+<<<<<<< HEAD
         flash your chosen hex file: `$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex\`
+=======
+        flash your chosen hex file: `$ teensy-loader-cli -mmcu=atmega32u4 -wv path/to/file.hex`
+>>>>>>> origin/master
 
