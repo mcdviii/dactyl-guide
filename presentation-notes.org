@@ -39,6 +39,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 #+NAME kinesis
 [[file:img/818T--WBwvL._SL1500_.jpg]]
+
 - Advantages:
 - Disadvanteges: $320.00 USD
 - Open Source: No
