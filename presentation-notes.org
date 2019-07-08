@@ -1,0 +1,73 @@
+#+TITLE: presentation-notes
+
+
+* TODO Gather Raw Data for Presentation
+** Prices
+*** Ali Express for Keycap Price
+*** Digikey for Hardware Cost
+** Collect Info & Tutorial Sources for Reference
+
+* Outline
+** Who Am I?
+Tim Anderson
+@mcdviii on github
+http://aberrent.online
+
+- I work in manufacturing as a machine operator for a local furniture
+  manufacturer.
+- I tinker with electronics & free software on my free time.
+** Benefits of Ergo keyboards
+*** Why would you want or need this?
+**** My personal reasons
+***** I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
+**** History of Typwriter According to Matt Addereth
+**** Other relatable reasons (Programmers, emacs pinky)
+***** Only a normie would use an OEM keyboard!
+*** RSI Injuries & How to Avoid Them
+- I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
+**** Ulnar deviation
+** Open Source Keyboard Projects
+*** Kinesis Advantage Pro
+*** ErgoDox
+*** Atreus
+*** Signum (Troy Fletcher)
+*** Let's Split
+*** Other Dactyl Variations
+**** Ergo Dactyl
+**** Lightcycle Dactyl
+**** Dactyl Manuform
+** What is the Dactyl Keyboard?
+*** History or Background
+**** Matt's Clojurcon Youtube Video
+**** Matt's Reasons for making the design
+**** Dactyl was Written in Clojure with the Help of OpenSCAD
+*** Reasons for Choosing Dactyl
+- Kinesis Advantage form factor
+- Open Source
+- Most comfortable design
+- Just look at it
+** Dactyl Project
+*** My Reasons for Building by Hand Instead of Purchasing
+- At the time there were none being manufactured
+- Nerd cred
+- Sense of self-satisfaction
+- Building my own helps me to improve the project by contributing personal
+  improvements back (Open Source)
+- I already own a 3D printer
+- Screw paying someone else >$300, I'll just build my own!
+- One year later joke
+*** Build Overview
+**** Shell/Case
+**** Switches & Keycaps
+**** Hardware
+**** PCB & Wiring
+**** Firmware
+**** How Does it Work?
+- Magic!
+** Where To Buy
+- I have no affiliation or experience with the following. YMMV!
+*** MassDrop
+- Crowd sourced limited manufacturing.
+*** ErgodoxEZ
+*** OhKeycaps.com
+** Conclusion
