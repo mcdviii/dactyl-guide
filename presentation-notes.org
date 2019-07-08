@@ -43,7 +43,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 * Notable Mentions
 ** Kinesis Advantage2
 
-[[file:img/818T--WBwvL._SL1500_.jpg]]
+[[file:img/Kinesis_Adv2.jpg]]
 
 - Advantages:
 - Disadvanteges: $320.00 USD
@@ -58,6 +58,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 ** Let's Split
 
+[[file:img/Let's_Split.jpg]]
 
 - Advantages:
 - Disadvantages:
@@ -65,13 +66,15 @@ But I would argue there are real health benefits to using a proper ergonomic key
 
 ** Atreus
 
+[[file:img/Atreus.jpg]]
 
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Small, single-board formfactor
+- Disadvantages: Not a split design,
+- Open Source: Yes
 
 ** Signum (Troy Fletcher)
 
+[[file:img/Signum3.0.jpg]]
 
 - Advantages:
 - Disadvantages:
@@ -81,6 +84,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 *** Ergo Dactyl
 
 
+
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -88,11 +92,13 @@ But I would argue there are real health benefits to using a proper ergonomic key
 *** Lightcycle Dactyl
 
 
+
 - Advantages:
 - Disadvantages:
 - Open Source:
 
 *** Dactyl Manuform
+
 
 
 - Advantages:
