@@ -13,16 +13,14 @@
  Collect Info & Tutorial Sources for
  #+END_NOTES
 
-* Who Am I?
-Tim Anderson
+* Tim Anderson
+Who am I?
 - https://github.com/mcdviii
 - http://aberrent.online
 
-#+BEGIN_NOTES
 I work in manufacturing as a machine operator for a local furniture
   manufacturer.
 I tinker with electronics & free software on my free time.
-#+END_NOTES
 
 * Why would you want or need this?
 ** Benefits of Ergo keyboards
@@ -32,14 +30,15 @@ question:
 It seems like a fair question. I imagine in the eyes of an uninitiated it would
 seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
 But I would argue there are real health benefits to using a proper ergonomic keyboard.
-*** My personal reasons
-**** I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
-*** History of Typwriter According to Matt Addereth
-*** Other relatable reasons (Programmers, emacs pinky)
-**** Only a normie would use an OEM keyboard!
-** RSI Injuries & How to Avoid Them
+** Let's look at a regular keyboard
+- History of Typwriter According to Matt Addereth
+- RSI Injuries & How to Avoid Them
 - I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
-*** Ulnar deviation
+- Compare bad hand posture to OEM keyboard
+- Ulnar deviation
+- Other relatable reasons (Programmers, emacs pinky)
+- My personal reasons
+- I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
 * Notable Mentions
 ** Kinesis Advantage2
 
@@ -72,12 +71,13 @@ But I would argue there are real health benefits to using a proper ergonomic key
 - Disadvantages: Not a split design,
 - Open Source: Yes
 
-** Signum (Troy Fletcher)
+** Signum 3 (Troy Fletcher)
 
 [[file:img/Signum3.0.jpg]]
 
 - Advantages:
 - Disadvantages:
+- Differences:
 - Open Source:
 
 ** Other Dactyl Variations

@@ -1,44 +1,44 @@
 
 # Table of Contents
 
-1.  [Who Am I?](#org5416b25)
-2.  [Why would you want or need this?](#org3190c99)
-    1.  [Benefits of Ergo keyboards](#org965a957)
-        1.  [My personal reasons](#orga4281dc)
-        2.  [History of Typwriter According to Matt Addereth](#orgc1beb88)
-        3.  [Other relatable reasons (Programmers, emacs pinky)](#org47e2818)
-    2.  [RSI Injuries & How to Avoid Them](#org214674f)
-        1.  [Ulnar deviation](#orgdd33be5)
-3.  [Notable Mentions](#org560ec43)
-    1.  [Kinesis Advantage2](#org3b98927)
-    2.  [ErgoDox](#org67398c4)
-    3.  [Let's Split](#orgc53e365)
-    4.  [Atreus](#orgf16bd21)
-    5.  [Signum (Troy Fletcher)](#orga6b8e95)
-    6.  [Other Dactyl Variations](#orgb690514)
-        1.  [Ergo Dactyl](#orgb6a2c0d)
-        2.  [Lightcycle Dactyl](#orgdd2c072)
-        3.  [Dactyl Manuform](#org16f094a)
-4.  [What is the Dactyl Keyboard?](#org95c9d9b)
-    1.  [History or Background](#orgb306dc4)
-        1.  [Matt's Clojurcon Youtube Video](#org8dbeca0)
-        2.  [Matt's Reasons for making the design](#orgca34a95)
-        3.  [Dactyl was Written in Clojure with the Help of OpenSCAD](#orgb36a165)
-    2.  [Reasons for Choosing Dactyl](#org6dd0f09)
-5.  [Dactyl Project](#orgd97899b)
-    1.  [My Reasons for Building by Hand Instead of Purchasing](#org38709f3)
-    2.  [Build Overview](#org49bcfe9)
-        1.  [Shell/Case](#orgeb7335b)
-        2.  [Switches & Keycaps](#org53a3535)
-        3.  [Hardware](#org2e18fb1)
-        4.  [PCB & Wiring](#orgaa16435)
-        5.  [Firmware](#orgd8c4ca2)
-        6.  [How Does it Work?](#org6e4683b)
-        7.  [Challenges](#orgc4585e9)
-6.  [Where To Buy](#org628c92c)
-    1.  [MassDrop](#org2f07436)
-    2.  [ErgodoxEZ](#org9817ccc)
-    3.  [OhKeycaps.com](#org0003b07)
+1.  [Who Am I?](#org3ab5e39)
+2.  [Why would you want or need this?](#org2d9cdc2)
+    1.  [Benefits of Ergo keyboards](#org84e9b4d)
+        1.  [My personal reasons](#org520cc4c)
+        2.  [History of Typwriter According to Matt Addereth](#org6b7e888)
+        3.  [Other relatable reasons (Programmers, emacs pinky)](#orgbf8e8cd)
+    2.  [RSI Injuries & How to Avoid Them](#orgf568b4a)
+        1.  [Ulnar deviation](#org6c24749)
+3.  [Notable Mentions](#orgf748f8f)
+    1.  [Kinesis Advantage2](#org09e6952)
+    2.  [ErgoDox](#org5e81e86)
+    3.  [Let's Split](#org02378ae)
+    4.  [Atreus](#org073dc7c)
+    5.  [Signum (Troy Fletcher)](#org04babf1)
+    6.  [Other Dactyl Variations](#orgb355609)
+        1.  [Ergo Dactyl](#org612851d)
+        2.  [Lightcycle Dactyl](#org84f2e4f)
+        3.  [Dactyl Manuform](#org6f259c5)
+4.  [What is the Dactyl Keyboard?](#orga0adadf)
+    1.  [History or Background](#org74127f0)
+        1.  [Matt's Clojurcon Youtube Video](#org07489f3)
+        2.  [Matt's Reasons for making the design](#orgaaea204)
+        3.  [Dactyl was Written in Clojure with the Help of OpenSCAD](#orgbbe4b42)
+    2.  [Reasons for Choosing Dactyl](#org09ab766)
+5.  [Dactyl Project](#org27cea08)
+    1.  [My Reasons for Building by Hand Instead of Purchasing](#org4067b17)
+    2.  [Build Overview](#org8da0a16)
+        1.  [Shell/Case](#orgf452468)
+        2.  [Switches & Keycaps](#orgbffd34e)
+        3.  [Hardware](#org32f9469)
+        4.  [PCB & Wiring](#org4d9f30b)
+        5.  [Firmware](#org0ed14c1)
+        6.  [How Does it Work?](#orgfd322a1)
+        7.  [Challenges](#orgfc3388b)
+6.  [Where To Buy](#org498d6b8)
+    1.  [MassDrop](#orgce17257)
+    2.  [ErgodoxEZ](#org79fa51f)
+    3.  [OhKeycaps.com](#org3c9e56f)
 
 <div class="NOTES">
 TODO Finish Website & Mirror Presentation Notees
@@ -52,7 +52,7 @@ Collect Info & Tutorial Sources for
 </div>
 
 
-<a id="org5416b25"></a>
+<a id="org3ab5e39"></a>
 
 # Who Am I?
 
@@ -69,12 +69,12 @@ I tinker with electronics & free software on my free time.
 </div>
 
 
-<a id="org3190c99"></a>
+<a id="org2d9cdc2"></a>
 
 # Why would you want or need this?
 
 
-<a id="org965a957"></a>
+<a id="org84e9b4d"></a>
 
 ## Benefits of Ergo keyboards
 
@@ -86,43 +86,43 @@ seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
 But I would argue there are real health benefits to using a proper ergonomic keyboard.
 
 
-<a id="orga4281dc"></a>
+<a id="org520cc4c"></a>
 
 ### My personal reasons
 
 1.  I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
 
 
-<a id="orgc1beb88"></a>
+<a id="org6b7e888"></a>
 
 ### History of Typwriter According to Matt Addereth
 
 
-<a id="org47e2818"></a>
+<a id="orgbf8e8cd"></a>
 
 ### Other relatable reasons (Programmers, emacs pinky)
 
 1.  Only a normie would use an OEM keyboard!
 
 
-<a id="org214674f"></a>
+<a id="orgf568b4a"></a>
 
 ## RSI Injuries & How to Avoid Them
 
 -   I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
 
 
-<a id="orgdd33be5"></a>
+<a id="org6c24749"></a>
 
 ### Ulnar deviation
 
 
-<a id="org560ec43"></a>
+<a id="orgf748f8f"></a>
 
 # Notable Mentions
 
 
-<a id="org3b98927"></a>
+<a id="org09e6952"></a>
 
 ## Kinesis Advantage2
 
@@ -133,7 +133,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source: No
 
 
-<a id="org67398c4"></a>
+<a id="org5e81e86"></a>
 
 ## ErgoDox
 
@@ -144,7 +144,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="orgc53e365"></a>
+<a id="org02378ae"></a>
 
 ## Let's Split
 
@@ -155,7 +155,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="orgf16bd21"></a>
+<a id="org073dc7c"></a>
 
 ## Atreus
 
@@ -166,7 +166,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source: Yes
 
 
-<a id="orga6b8e95"></a>
+<a id="org04babf1"></a>
 
 ## Signum (Troy Fletcher)
 
@@ -177,12 +177,12 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="orgb690514"></a>
+<a id="orgb355609"></a>
 
 ## Other Dactyl Variations
 
 
-<a id="orgb6a2c0d"></a>
+<a id="org612851d"></a>
 
 ### Ergo Dactyl
 
@@ -191,7 +191,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="orgdd2c072"></a>
+<a id="org84f2e4f"></a>
 
 ### Lightcycle Dactyl
 
@@ -200,7 +200,7 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="org16f094a"></a>
+<a id="org6f259c5"></a>
 
 ### Dactyl Manuform
 
@@ -209,34 +209,34 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Open Source:
 
 
-<a id="org95c9d9b"></a>
+<a id="orga0adadf"></a>
 
 # What is the Dactyl Keyboard?
 
 -   Columnar, Ortholinear, written in Clojure
 
 
-<a id="orgb306dc4"></a>
+<a id="org74127f0"></a>
 
 ## History or Background
 
 
-<a id="org8dbeca0"></a>
+<a id="org07489f3"></a>
 
 ### Matt's Clojurcon Youtube Video
 
 
-<a id="orgca34a95"></a>
+<a id="orgaaea204"></a>
 
 ### Matt's Reasons for making the design
 
 
-<a id="orgb36a165"></a>
+<a id="orgbbe4b42"></a>
 
 ### Dactyl was Written in Clojure with the Help of OpenSCAD
 
 
-<a id="org6dd0f09"></a>
+<a id="org09ab766"></a>
 
 ## Reasons for Choosing Dactyl
 
@@ -246,12 +246,12 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   Also looked hella cool
 
 
-<a id="orgd97899b"></a>
+<a id="org27cea08"></a>
 
 # Dactyl Project
 
 
-<a id="org38709f3"></a>
+<a id="org4067b17"></a>
 
 ## My Reasons for Building by Hand Instead of Purchasing
 
@@ -264,44 +264,44 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   One year later joke
 
 
-<a id="org49bcfe9"></a>
+<a id="org8da0a16"></a>
 
 ## Build Overview
 
 
-<a id="orgeb7335b"></a>
+<a id="orgf452468"></a>
 
 ### Shell/Case
 
 
-<a id="org53a3535"></a>
+<a id="orgbffd34e"></a>
 
 ### Switches & Keycaps
 
 
-<a id="org2e18fb1"></a>
+<a id="org32f9469"></a>
 
 ### Hardware
 
 
-<a id="orgaa16435"></a>
+<a id="org4d9f30b"></a>
 
 ### PCB & Wiring
 
 
-<a id="orgd8c4ca2"></a>
+<a id="org0ed14c1"></a>
 
 ### Firmware
 
 
-<a id="org6e4683b"></a>
+<a id="orgfd322a1"></a>
 
 ### How Does it Work?
 
 -   Explain matrix positions
 
 
-<a id="orgc4585e9"></a>
+<a id="orgfc3388b"></a>
 
 ### Challenges
 
@@ -309,26 +309,26 @@ But I would argue there are real health benefits to using a proper ergonomic key
 -   How the keyboard is controlled by the MC (key matrix)
 
 
-<a id="org628c92c"></a>
+<a id="org498d6b8"></a>
 
 # Where To Buy
 
 -   I have no affiliation or experience with the following. YMMV!
 
 
-<a id="org2f07436"></a>
+<a id="orgce17257"></a>
 
 ## MassDrop
 
 -   Crowd sourced limited manufacturing.
 
 
-<a id="org9817ccc"></a>
+<a id="org79fa51f"></a>
 
 ## ErgodoxEZ
 
 
-<a id="org0003b07"></a>
+<a id="org3c9e56f"></a>
 
 ## OhKeycaps.com
 
