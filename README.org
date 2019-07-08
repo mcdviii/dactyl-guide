@@ -1,16 +1,20 @@
 #+TITLE: Updated Dactyl Build Guide
 
-** Parts List (This is what I spent on parts)
+** Parts List
+
+Things you'll need.
+
+
 
 | Parts:                            | Cost in USD: |
 |-----------------------------------+--------------|
-| 3D Printed Shells                 |       400000 |
+| 3D Printed Shells                 |       100.00 |
 |-----------------------------------+--------------|
 | 70ct Key Switches                 |        50.00 |
 |-----------------------------------+--------------|
-| Rubber O-Rings for Switches       |         7.00 |
+| Rubber O-Rings for Switches       |         2.00 |
 |-----------------------------------+--------------|
-| Key Caps                          |        83.00 |
+| Key Caps                          |        50.00 |
 |-----------------------------------+--------------|
 | Pyralux (Flexible copper for PCB) |        30.00 |
 |-----------------------------------+--------------|
