@@ -1,74 +1,74 @@
 
 # Table of Contents
 
-1.  [Finish Website & Mirror Presentation Notees](#org7ed496c)
-2.  [Gather Raw Data for Presentation](#orgd894c46)
-    1.  [Prices](#org679eda4)
-        1.  [Ali Express for Keycap Price](#orga6b5e2e)
-        2.  [Digikey for Hardware Cost](#org77bb09e)
-    2.  [Collect Info & Tutorial Sources for Reference](#orgc7b3936)
-3.  [Outline](#org893332b)
-    1.  [Who Am I?](#org912f378)
-    2.  [Benefits of Ergo keyboards](#orge9f2450)
-        1.  [Why would you want or need this?](#org2826a16)
-        2.  [RSI Injuries & How to Avoid Them](#org1b0c1c0)
-    3.  [Open Source Keyboard Projects](#org5c36230)
-        1.  [Kinesis Advantage Pro](#org45cb597)
-        2.  [ErgoDox](#org075cb4a)
-        3.  [Atreus](#orgbde63c6)
-        4.  [Signum (Troy Fletcher)](#org4c6b8af)
-        5.  [Let's Split](#org07229e8)
-        6.  [Other Dactyl Variations](#orgd00a409)
-    4.  [What is the Dactyl Keyboard?](#orgc89da40)
-        1.  [History or Background](#org15c6000)
-        2.  [Reasons for Choosing Dactyl](#org66fb096)
-    5.  [Dactyl Project](#orgd57e538)
-        1.  [My Reasons for Building by Hand Instead of Purchasing](#org9617281)
-        2.  [Build Overview](#org3116d8c)
-    6.  [Where To Buy](#org9a61190)
-        1.  [MassDrop](#org410f099)
-        2.  [ErgodoxEZ](#org5f0c085)
-        3.  [OhKeycaps.com](#org9244da8)
-    7.  [Conclusion](#org6f43dad)
+1.  [Finish Website & Mirror Presentation Notees](#org9291256)
+2.  [Gather Raw Data for Presentation](#org558bb2f)
+    1.  [Prices](#orgefe2ada)
+        1.  [Ali Express for Keycap Price](#org5e84a2e)
+        2.  [Digikey for Hardware Cost](#org853c260)
+    2.  [Collect Info & Tutorial Sources for Reference](#org80f1ec0)
+3.  [Outline](#org4965f03)
+    1.  [Who Am I?](#org40ee23d)
+    2.  [Benefits of Ergo keyboards](#orgc96cfe6)
+        1.  [Why would you want or need this?](#org2ed3880)
+        2.  [RSI Injuries & How to Avoid Them](#org0cf0966)
+    3.  [Open Source Keyboard Projects](#org448fd3f)
+        1.  [Kinesis Advantage Pro](#org81c038e)
+        2.  [ErgoDox](#org02702fd)
+        3.  [Atreus](#org923e4fe)
+        4.  [Signum (Troy Fletcher)](#orga4679e9)
+        5.  [Let's Split](#orge2fd304)
+        6.  [Other Dactyl Variations](#org80dc46b)
+    4.  [What is the Dactyl Keyboard?](#org58e2dc9)
+        1.  [History or Background](#org45218ee)
+        2.  [Reasons for Choosing Dactyl](#orgc65f39f)
+    5.  [Dactyl Project](#org61d6cf6)
+        1.  [My Reasons for Building by Hand Instead of Purchasing](#orgf394fd5)
+        2.  [Build Overview](#org3c2e6fe)
+    6.  [Where To Buy](#orgfccfc96)
+        1.  [MassDrop](#org6718fc8)
+        2.  [ErgodoxEZ](#org82b5b4c)
+        3.  [OhKeycaps.com](#orgb35cdb6)
+    7.  [Conclusion](#org291a7bb)
 
 
 
-<a id="org7ed496c"></a>
+<a id="org9291256"></a>
 
 # TODO Finish Website & Mirror Presentation Notees
 
 
-<a id="orgd894c46"></a>
+<a id="org558bb2f"></a>
 
 # TODO Gather Raw Data for Presentation
 
 
-<a id="org679eda4"></a>
+<a id="orgefe2ada"></a>
 
 ## Prices
 
 
-<a id="orga6b5e2e"></a>
+<a id="org5e84a2e"></a>
 
 ### Ali Express for Keycap Price
 
 
-<a id="org77bb09e"></a>
+<a id="org853c260"></a>
 
 ### Digikey for Hardware Cost
 
 
-<a id="orgc7b3936"></a>
+<a id="org80f1ec0"></a>
 
 ## Collect Info & Tutorial Sources for Reference
 
 
-<a id="org893332b"></a>
+<a id="org4965f03"></a>
 
 # Outline
 
 
-<a id="org912f378"></a>
+<a id="org40ee23d"></a>
 
 ## Who Am I?
 
@@ -81,14 +81,21 @@ Tim Anderson
 -   I tinker with electronics & free software on my free time.
 
 
-<a id="orge9f2450"></a>
+<a id="orgc96cfe6"></a>
 
 ## Benefits of Ergo keyboards
 
 
-<a id="org2826a16"></a>
+<a id="org2ed3880"></a>
 
 ### Why would you want or need this?
+
+While browsing around looking at these ergonomic keyboards I see a recurring
+question:
+"Why would you need/want that."
+It seems like a fair question. I imagine in the eyes of an uninitiated it would
+seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
+But I would argue there are real health benefits to using a proper ergonomic keyboard.
 
 1.  My personal reasons
 
@@ -101,7 +108,7 @@ Tim Anderson
     1.  Only a normie would use an OEM keyboard!
 
 
-<a id="org1b0c1c0"></a>
+<a id="org0cf0966"></a>
 
 ### RSI Injuries & How to Avoid Them
 
@@ -110,37 +117,37 @@ Tim Anderson
 1.  Ulnar deviation
 
 
-<a id="org5c36230"></a>
+<a id="org448fd3f"></a>
 
 ## Open Source Keyboard Projects
 
 
-<a id="org45cb597"></a>
+<a id="org81c038e"></a>
 
 ### Kinesis Advantage Pro
 
 
-<a id="org075cb4a"></a>
+<a id="org02702fd"></a>
 
 ### ErgoDox
 
 
-<a id="orgbde63c6"></a>
+<a id="org923e4fe"></a>
 
 ### Atreus
 
 
-<a id="org4c6b8af"></a>
+<a id="orga4679e9"></a>
 
 ### Signum (Troy Fletcher)
 
 
-<a id="org07229e8"></a>
+<a id="orge2fd304"></a>
 
 ### Let's Split
 
 
-<a id="orgd00a409"></a>
+<a id="org80dc46b"></a>
 
 ### Other Dactyl Variations
 
@@ -151,12 +158,12 @@ Tim Anderson
 3.  Dactyl Manuform
 
 
-<a id="orgc89da40"></a>
+<a id="org58e2dc9"></a>
 
 ## What is the Dactyl Keyboard?
 
 
-<a id="org15c6000"></a>
+<a id="org45218ee"></a>
 
 ### History or Background
 
@@ -167,7 +174,7 @@ Tim Anderson
 3.  Dactyl was Written in Clojure with the Help of OpenSCAD
 
 
-<a id="org66fb096"></a>
+<a id="orgc65f39f"></a>
 
 ### Reasons for Choosing Dactyl
 
@@ -177,12 +184,12 @@ Tim Anderson
 -   Just look at it
 
 
-<a id="orgd57e538"></a>
+<a id="org61d6cf6"></a>
 
 ## Dactyl Project
 
 
-<a id="org9617281"></a>
+<a id="orgf394fd5"></a>
 
 ### My Reasons for Building by Hand Instead of Purchasing
 
@@ -196,7 +203,7 @@ Tim Anderson
 -   One year later joke
 
 
-<a id="org3116d8c"></a>
+<a id="org3c2e6fe"></a>
 
 ### Build Overview
 
@@ -215,31 +222,31 @@ Tim Anderson
     -   Magic!
 
 
-<a id="org9a61190"></a>
+<a id="orgfccfc96"></a>
 
 ## Where To Buy
 
 -   I have no affiliation or experience with the following. YMMV!
 
 
-<a id="org410f099"></a>
+<a id="org6718fc8"></a>
 
 ### MassDrop
 
 -   Crowd sourced limited manufacturing.
 
 
-<a id="org5f0c085"></a>
+<a id="org82b5b4c"></a>
 
 ### ErgodoxEZ
 
 
-<a id="org9244da8"></a>
+<a id="orgb35cdb6"></a>
 
 ### OhKeycaps.com
 
 
-<a id="org6f43dad"></a>
+<a id="org291a7bb"></a>
 
 ## Conclusion
 

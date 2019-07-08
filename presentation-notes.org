@@ -17,8 +17,15 @@ http://aberrent.online
 - I work in manufacturing as a machine operator for a local furniture
   manufacturer.
 - I tinker with electronics & free software on my free time.
+
 ** Benefits of Ergo keyboards
 *** Why would you want or need this?
+While browsing around looking at these ergonomic keyboards I see a recurring
+question:
+"Why would you need/want that."
+It seems like a fair question. I imagine in the eyes of an uninitiated it would
+seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
+But I would argue there are real health benefits to using a proper ergonomic keyboard.
 **** My personal reasons
 ***** I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
 **** History of Typwriter According to Matt Addereth

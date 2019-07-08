@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [Updated Dactyl Build Guide](#org23f34f9)
-    1.  [Parts List (This is what I spent on parts)](#org4a586af)
-        1.  [Retailers](#org0992d1c)
-    2.  [Dimensions](#orge3f981c)
-    3.  [Step-by-step instructions](#org0ffbd9f)
-        1.  [Preparation](#orgff39a07)
-        2.  [Circuit design](#org978cbb2)
-        3.  [Etching](#org6946fab)
-        4.  [Wiring](#org9f8dd2a)
-        5.  [PCB Layering instructions](#org3abd76d)
-        6.  [Firmware guide](#orgf793040)
+1.  [Updated Dactyl Build Guide](#orgd0b9c57)
+    1.  [Parts List (This is what I spent on parts)](#orgba7d88f)
+        1.  [Retailers](#orgd01169f)
+    2.  [Dimensions](#org3e4dd9f)
+    3.  [Step-by-step instructions](#org667310f)
+        1.  [Preparation](#org4ca9604)
+        2.  [Circuit design](#org4a568b1)
+        3.  [Etching](#org0f42c42)
+        4.  [Wiring](#orgbb15c34)
+        5.  [PCB Layering instructions](#orgbea05a3)
+        6.  [Firmware guide](#orgcd026aa)
 
 
 
-<a id="org23f34f9"></a>
+<a id="orgd0b9c57"></a>
 
 # Updated Dactyl Build Guide
 
 
-<a id="org4a586af"></a>
+<a id="orgba7d88f"></a>
 
 ## Parts List (This is what I spent on parts)
 
@@ -30,58 +30,58 @@
 <colgroup>
 <col  class="org-left" />
 
-<col  class="org-left" />
+<col  class="org-right" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-left">Parts:</th>
-<th scope="col" class="org-left">Cost in USD:</th>
+<th scope="col" class="org-right">Cost in USD:</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
 <td class="org-left">3D Printed Shells</td>
-<td class="org-left">$40</td>
+<td class="org-right">400000</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Key Switches</td>
-<td class="org-left">~$50</td>
+<td class="org-right">500000</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Key Caps</td>
-<td class="org-left">~$50</td>
+<td class="org-right">500000</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">Pyralux (Flexible copper for PCB)</td>
-<td class="org-left">$60</td>
+<td class="org-right">600000</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Total:</td>
+<td class="org-right">total([])</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org0992d1c"></a>
+<a id="orgd01169f"></a>
 
 ### Retailers
 
 
-<a id="orge3f981c"></a>
+<a id="org3e4dd9f"></a>
 
 ## Dimensions
 
@@ -90,12 +90,12 @@
 -   Rubber feet
 
 
-<a id="org0ffbd9f"></a>
+<a id="org667310f"></a>
 
 ## Step-by-step instructions
 
 
-<a id="orgff39a07"></a>
+<a id="org4ca9604"></a>
 
 ### Preparation
 
@@ -104,17 +104,17 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="org978cbb2"></a>
+<a id="org4a568b1"></a>
 
 ### Circuit design
 
 
-<a id="org6946fab"></a>
+<a id="org0f42c42"></a>
 
 ### Etching
 
 
-<a id="org9f8dd2a"></a>
+<a id="orgbb15c34"></a>
 
 ### Wiring
 
@@ -132,12 +132,12 @@ heatshrink tubing works best.
     allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="org3abd76d"></a>
+<a id="orgbea05a3"></a>
 
 ### PCB Layering instructions
 
 
-<a id="orgf793040"></a>
+<a id="orgcd026aa"></a>
 
 ### Firmware guide
 
