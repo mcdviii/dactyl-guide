@@ -8,7 +8,15 @@
 *** Heatshrink standoffs
 *** PCB Layering instructions
 *** Diode position
+For a row-driven keyboard, the cathode ends of the diodes should face away from the switch pin. This
+allows the current to flow from the row, through the switch and out through the column.
 *** Firmware guide
+**** config.qmk.fm
+Under board, choose 'handwired/dactyl'.
+Change defaults as necessary.
+Click on 'COMPILE'.
+Once finised, download the .hex file by clicking 'FIRMWARE'.
+Consider saving the keymap.json file for future reference.
 
 * Finish Website & Mirror Presentation Notees
 
