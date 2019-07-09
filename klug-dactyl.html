@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Rochester KLUG Keyboard Meetup</title>
+<meta name="author" content="(Tim Anderson)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@3/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Rochester KLUG Keyboard Meetup</h1><h2 class="author">Tim Anderson</h2><p class="date">Created: 2019-07-09 Tue 12:36</p>
+</section>
+<aside class="notes">
+<p>
+TODO Gather Raw Data for Presentation
+Prices
+Ali Express for Keycap Price
+Digikey for Hardware Cost
+Collect Info &amp; Tutorial Sources for
+</p>
+
+</aside>
+
+<section>
+<section id="slide-org4537aae">
+<h2 id="org4537aae">Tim Anderson</h2>
+<p>
+Who am I?
+</p>
+<ul>
+<li><a href="https://github.com/mcdviii">https://github.com/mcdviii</a></li>
+<li><a href="http://aberrant.online">http://aberrant.online</a></li>
+<li><a href="mailto:timothy.c.anderson@mykolab.com">timothy.c.anderson@mykolab.com</a></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+I don't think there's much to tell about myself. I've worked 8 years in
+manufacturing for a local furniture manufacturer. About 6 of those years I've worked as a machine operator.
+I own a reasonably sized 3D printer; I tinker with electronics &amp; free
+software on my free time.
+You can follow me through the following links. You won't find me on Facebook or
+Twitter, so don't bother looking for me there.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org19bc63f">
+<h2 id="org19bc63f">So, what is this Dactyl Keyboard thing?</h2>
+
+<div class="figure">
+<p><img src="img/brooke_baldwin.jpg" alt="brooke_baldwin.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org2f63857">
+<h2 id="org2f63857">Columnar, Ortholinear, written in Clojure</h2>
+<aside class="notes">
+<p>
+Those are a lot of fancy words. What does any of that mean? Well we'll get back
+to that.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org97f1f81">
+<h3 id="org97f1f81">History or Background</h3>
+<ul>
+<li>Matt's Clojurcon Youtube Video</li>
+<li>Matt's Reasons for making the design</li>
+<li>Dactyl was Written in Clojure with the Help of OpenSCAD</li>
+
+</ul>
+</section>
+<section id="slide-org20b7b36">
+<h3 id="org20b7b36">Reasons for Choosing Dactyl</h3>
+<ul>
+<li>Kinesis Advantage form factor</li>
+<li>Open Source</li>
+<li>Looked like the most comfortable design</li>
+<li>Also looked hella cool</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org7fae3fc">
+<h2 id="org7fae3fc">Why Would You Want That?</h2>
+<aside class="notes">
+<p>
+While browsing around looking at these ergonomic keyboards I see a recurring
+question: "Why would you need/want that.", and I think that it's a fair question.
+It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
+outside observer it might look like an expensive, showy &amp; unnecessary gadget.
+But I think there are real health benefits to using a proper ergonomic keyboard, and in
+this talk I'd like to go over some of the things I've found while looking into the topic.
+</p>
+
+</aside>
+<aside class="notes">
+<p>
+First I think we need to get a better understanding of why a regular
+keyboard is the way it is, so that we can understand what we're working with.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgda7fc38">
+<h3 id="orgda7fc38">Let's look at a regular keyboard</h3>
+<ul>
+<li>History of Typwriter According to Matt Addereth</li>
+<li>Keyboard design may be a bit antiquated</li>
+
+</ul>
+<aside class="notes">
+<p>
+Now, before we get into this, I should state that I am not a doctor. I do know how to use Google, so I might as well be
+one&#x2013;but that being said&#x2013;obviously, this is my understanding from my cursory
+research. None of it should be construed as medical advice. Consult your doctor before
+making any changes to the ergonomics of your workstations or workflow. So with
+that out of the way, let's look at some things the internet tells you not to do.
+</p>
+
+</aside>
+<ul>
+<li>Compare bad hand posture to OEM keyboard</li>
+<li>RSI Injuries &amp; How to Avoid Them
+<a href="https://www.rsiprevention.com/rsi_prevention.php">https://www.rsiprevention.com/rsi_prevention.php</a></li>
+<li>Other relatable reasons (Programmers, emacs pinky)</li>
+<li>My personal reasons</li>
+
+</ul>
+<aside class="notes">
+<p>
+I consider my hands to be my greatest physical asset, other than my brain. To be
+clear, I don't experience RSI issues, nor have I ever. But, over the past
+year I've just decided to make a concious effort to avoid them given my hobbies
+&amp; future plans. I use a computer a lot, and I would like to continue using a
+computer a lot with as few negative affects as I can manage. I had the means to
+build my own badass keyboard, so I did.
+</p>
+
+</aside>
+</section>
+<section id="slide-org447f1db">
+<h3 id="org447f1db">Benefits of Ergo keyboards</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd669408">
+<h2 id="orgd669408">Notable Mentions</h2>
+<div class="outline-text-2" id="text-orgd669408">
+</div>
+</section>
+<section id="slide-orgaec7fb5">
+<h3 id="orgaec7fb5">Kinesis Advantage2</h3>
+
+<div class="figure">
+<p><img src="img/Kinesis_Adv2.jpg" alt="Kinesis_Adv2.jpg" />
+</p>
+</div>
+
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvanteges: $320.00 USD</li>
+<li class="fragment fade-in">Open Source: No</li>
+
+</ul>
+<aside class="notes">
+<p>
+As I
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgd7dc3e1">
+<h3 id="orgd7dc3e1">ErgoDox EZ</h3>
+
+<div class="figure">
+<p><img src="img/Ergodox_EZ.jpg" alt="Ergodox_EZ.jpg" />
+</p>
+</div>
+
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvantages:</li>
+<li class="fragment fade-in">Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+One of the most popular ergo keyboards I've seen. It's garnered the attention &amp;
+a review from <a href="https://www.youtube.com/watch?v=LALQsqZP1nA">Linus Tech Tips</a>, and has a <a href="https://www.ergodox.io/">long open source history</a>.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org4d9af19">
+<h3 id="org4d9af19">Let's Split</h3>
+
+<div class="figure">
+<p><img src="img/Let's_Split.jpg" alt="Let's_Split.jpg" />
+</p>
+</div>
+
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvantages:</li>
+<li class="fragment fade-in">Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org2808274">
+<h3 id="org2808274">Atreus</h3>
+
+<div class="figure">
+<p><img src="img/Atreus.jpg" alt="Atreus.jpg" />
+</p>
+</div>
+
+<ul>
+<li class="fragment fade-in">Advantages: Small, single-board form factor</li>
+<li class="fragment fade-in">Disadvantages: Not a split design?</li>
+<li class="fragment fade-in">Open Source: Yes</li>
+
+</ul>
+<aside class="notes">
+<p>
+This is another keyboard I saw referenced a lot. It's a single board &amp; not
+split, but it's small (the website shows it fitting in someone's jeans pocket).
+The single board design could be an advantage or disadvantage depending on what
+you're using it for. It's potentially less comfortable to use, but I see it
+being easy to grab &amp; go if you're using it in a mobile set-up.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org8ff1071">
+<h3 id="org8ff1071">Signum 3 (Troy Fletcher)</h3>
+
+<div class="figure">
+<p><img src="img/Signum3.0.jpg" alt="Signum3.0.jpg" />
+</p>
+</div>
+
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvantages:</li>
+<li class="fragment fade-in">Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+Notable differences between the Signum 3 &amp; Atreus are the thumb clusters.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org791fa26">
+<h3 id="org791fa26">Other Dactyl Variations</h3>
+<div class="outline-text-3" id="text-org791fa26">
+</div>
+</section>
+<section id="slide-org1f82201">
+<h4 id="org1f82201">Ergo Dactyl</h4>
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvantages:</li>
+<li class="fragment fade-in">Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+Redesigned to fit Ergodox keycaps.
+</p>
+
+</aside>
+
+
+</section>
+<section id="slide-orgc31f53d">
+<h4 id="orgc31f53d">Lightcycle Dactyl</h4>
+<ul>
+<li class="fragment fade-in">Advantages:</li>
+<li class="fragment fade-in">Disadvantages:</li>
+<li class="fragment fade-in">Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgd15b50e">
+<h4 id="orgd15b50e">Dactyl Manuform</h4>
+<ul>
+<li>Advantages:</li>
+<li>Disadvantages:</li>
+<li>Open Source:</li>
+
+</ul>
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org62cf738">
+<h2 id="org62cf738">Dactyl Project</h2>
+<div class="outline-text-2" id="text-org62cf738">
+</div>
+</section>
+<section id="slide-orgddeaccc">
+<h3 id="orgddeaccc">My Reasons for Building by Hand Instead of Purchasing</h3>
+<ul>
+<li>At the time there were none being manufactured</li>
+<li>Sense of self-satisfaction</li>
+<li>Building my own helps me to improve the project by contributing personal
+improvements back (Open Source)</li>
+<li>I already own a 3D printer</li>
+<li>Screw paying someone else &gt;$300, I'll just build my own!</li>
+<li>One year later joke</li>
+
+</ul>
+</section>
+<section id="slide-org87ef8fc">
+<h3 id="org87ef8fc">Build Overview</h3>
+<div class="outline-text-3" id="text-org87ef8fc">
+</div>
+</section>
+<section id="slide-orgcaa15ac">
+<h4 id="orgcaa15ac">Shell/Case</h4>
+</section>
+<section id="slide-org98392c6">
+<h4 id="org98392c6">Switches &amp; Keycaps</h4>
+</section>
+<section id="slide-orgac86b48">
+<h4 id="orgac86b48">Hardware</h4>
+</section>
+<section id="slide-orgb006746">
+<h4 id="orgb006746">PCB &amp; Wiring</h4>
+</section>
+<section id="slide-org1f0fc94">
+<h4 id="org1f0fc94">Firmware</h4>
+</section>
+<section id="slide-org28c141c">
+<h4 id="org28c141c">How Does it Work?</h4>
+<ul>
+<li>Explain matrix positions</li>
+
+</ul>
+</section>
+<section id="slide-org6d9232b">
+<h4 id="org6d9232b">Challenges</h4>
+<ul>
+<li>Hardware, clearance &amp; dimentions</li>
+<li>PCB etching (I probably went the most expensive route.)</li>
+<li>Which way to wire the diodes</li>
+<li>How the keyboard is controlled by the MC (key matrix)</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org1f5f6a4">
+<h2 id="org1f5f6a4">Where To Buy</h2>
+<p>
+I have no affiliation or experience with the following. YMMV!
+</p>
+<ul>
+<li><a href="https://drop.com">Drop.com (formerly MassDrop)</a></li>
+
+</ul>
+<p>
+Crowd sourced, limited manufacturing.
+</p>
+<ul>
+<li><a href="https://ergodox-ez.com">Ergodox EZ</a></li>
+<li><a href="https://ohkeycaps.com">OhKeycaps.com</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgb98d072">
+<h2 id="orgb98d072">References</h2>
+<p>
+<a id="org14bd73a"></a>Das Blog.com
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+maxScale: 0.85,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

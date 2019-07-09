@@ -6,11 +6,6 @@
 #+OPTIONS: reveal_slide_number:nil toc:nil num:nil
 
 #+BEGIN_NOTES
-I recently gave a talk at my local Linux User Group about my experience building
- a Dactyl ergonomic keyboard; along with my reasons for doing so. The notes for
- that talk follow. You will find a downloadable PDF version of the notes at the
- bottom of the page.
-
  TODO Gather Raw Data for Presentation
  Prices
  Ali Express for Keycap Price
@@ -21,18 +16,21 @@ I recently gave a talk at my local Linux User Group about my experience building
 * Tim Anderson
 Who am I?
 - https://github.com/mcdviii
-- http://aberrent.online
+- http://aberrant.online
+- [[mailto:timothy.c.anderson@mykolab.com][timothy.c.anderson@mykolab.com]]
 
 #+BEGIN_NOTES
-I've worked 8 years in manufacturing. About 6 of those years I've worked as a machine operator for a local furniture
-  manufacturer.
-I own a reasonably sized 3D printer.
-I tinker with electronics & free software on my free time, because being social is for normies.
+I don't think there's much to tell about myself. I've worked 8 years in
+manufacturing for a local furniture manufacturer. About 6 of those years I've worked as a machine operator.
+I own a reasonably sized 3D printer; I tinker with electronics & free
+software on my free time.
+You can follow me through the following links. You won't find me on Facebook or
+Twitter, so don't bother looking for me there.
 #+END_NOTES
 
-* So, vhat is this Dactyl Keyboard thing?
-[[file:img/funnydance.gif]]
-- Columnar, Ortholinear, written in Clojure
+* So, what is this Dactyl Keyboard thing?
+[[file:img/brooke_baldwin.jpg]]
+* Columnar, Ortholinear, written in Clojure
 #+BEGIN_NOTES
 Those are a lot of fancy words. What does any of that mean? Well we'll get back
 to that.
@@ -47,6 +45,7 @@ to that.
 - Open Source
 - Looked like the most comfortable design
 - Also looked hella cool
+
 * Why Would You Want That?
 
 #+BEGIN_NOTES
@@ -96,10 +95,10 @@ build my own badass keyboard, so I did.
 - Disadvanteges: $320.00 USD
 - Open Source: No
 #+BEGIN_NOTES
-
+As I
 #+END_NOTES
 
-** ErgoDox
+** ErgoDox EZ
 
 [[file:img/Ergodox_EZ.jpg]]
 
@@ -108,7 +107,8 @@ build my own badass keyboard, so I did.
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-
+One of the most popular ergo keyboards I've seen. It's garnered the attention &
+a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], and has a [[https://www.ergodox.io/][long open source history]].
 #+END_NOTES
 
 ** Let's Split
@@ -205,6 +205,8 @@ Redesigned to fit Ergodox keycaps.
 *** How Does it Work?
 - Explain matrix positions
 *** Challenges
+- Hardware, clearance & dimentions
+- PCB etching (I probably went the most expensive route.)
 - Which way to wire the diodes
 - How the keyboard is controlled by the MC (key matrix)
 * Where To Buy
