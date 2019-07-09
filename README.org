@@ -18,11 +18,10 @@ Things you'll need.
 |-----------------------------------+--------------|
 | Pyralux (Flexible copper for PCB) |        30.00 |
 |-----------------------------------+--------------|
-| Total:                            |    total([]) |
-|                                   |              |
-#+TBLFM: $2=total($1..$5)
+| Total                             |         232. |
+#+TBLFM: $2=vsum(@2..@-1)
 
-- Price considerations
+- Costs provided are approximations.
   This table represents what I purchased my hartware for. YMMV.
 - You can get switch-dampening o-rings for as little as $2.00 if you're willing
   to wait for them to ship from China.

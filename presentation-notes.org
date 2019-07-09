@@ -3,12 +3,15 @@
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: fade
 #+REVEAL_MAX_SCALE: 0.85
-#+OPTIONS: reveal_slide_number:nil toc:nil
+#+OPTIONS: reveal_slide_number:nil toc:nil num:nil
 
 #+BEGIN_NOTES
- TODO Finish Website & Mirror Presentation Notees
- TODO Gather Raw Data for Presentation
+I recently gave a talk at my local Linux User Group about my experience building
+ a Dactyl ergonomic keyboard; along with my reasons for doing so. The notes for
+ that talk follow. You will find a downloadable PDF version of the notes at the
+ bottom of the page.
 
+ TODO Gather Raw Data for Presentation
  Prices
  Ali Express for Keycap Price
  Digikey for Hardware Cost
@@ -21,28 +24,68 @@ Who am I?
 - http://aberrent.online
 
 #+BEGIN_NOTES
-I work in manufacturing as a machine operator for a local furniture
+I've worked 8 years in manufacturing. About 6 of those years I've worked as a machine operator for a local furniture
   manufacturer.
-I tinker with electronics & free software on my free time.
+I own a reasonably sized 3D printer.
+I tinker with electronics & free software on my free time, because being social is for normies.
 #+END_NOTES
 
-* Why would you want or need this?
-** Benefits of Ergo keyboards
+* So, vhat is this Dactyl Keyboard thing?
+[[file:img/funnydance.gif]]
+- Columnar, Ortholinear, written in Clojure
+#+BEGIN_NOTES
+Those are a lot of fancy words. What does any of that mean? Well we'll get back
+to that.
+#+END_NOTES
+
+** History or Background
+- Matt's Clojurcon Youtube Video
+- Matt's Reasons for making the design
+- Dactyl was Written in Clojure with the Help of OpenSCAD
+** Reasons for Choosing Dactyl
+- Kinesis Advantage form factor
+- Open Source
+- Looked like the most comfortable design
+- Also looked hella cool
+* Why Would You Want That?
+
+#+BEGIN_NOTES
 While browsing around looking at these ergonomic keyboards I see a recurring
-question:
-"Why would you need/want that."
-It seems like a fair question. I imagine in the eyes of an uninitiated it would
-seem like RGB lighting on a personal computer: expensive, showy & unnecessary.
-But I would argue there are real health benefits to using a proper ergonomic keyboard.
+question: "Why would you need/want that.", and I think that it's a fair question.
+It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
+outside observer it might look like an expensive, showy & unnecessary gadget.
+But I think there are real health benefits to using a proper ergonomic keyboard, and in
+this talk I'd like to go over some of the things I've found while looking into the topic.
+#+END_NOTES
+#+BEGIN_NOTES
+First I think we need to get a better understanding of why a regular
+keyboard is the way it is, so that we can understand what we're working with.
+#+END_NOTES
 ** Let's look at a regular keyboard
 - History of Typwriter According to Matt Addereth
-- RSI Injuries & How to Avoid Them
-- I am not a doctor! I just searched causes for RSI issues! Don't shoot me!
+- Keyboard design may be a bit antiquated
+#+BEGIN_NOTES
+Now, before we get into this, I should state that I am not a doctor. I do know how to use Google, so I might as well be
+one--but that being said--obviously, this is my understanding from my cursory
+research. None of it should be construed as medical advice. Consult your doctor before
+making any changes to the ergonomics of your workstations or workflow. So with
+that out of the way, let's look at some things the internet tells you not to do.
+#+END_NOTES
 - Compare bad hand posture to OEM keyboard
-- Ulnar deviation
+- RSI Injuries & How to Avoid Them
+  [[https://www.rsiprevention.com/rsi_prevention.php]]
 - Other relatable reasons (Programmers, emacs pinky)
 - My personal reasons
-- I consider my hands to be my greatest physical asset, aside from what's floating around in my skull.
+#+BEGIN_NOTES
+I consider my hands to be my greatest physical asset, other than my brain. To be
+clear, I don't experience RSI issues, nor have I ever. But, over the past
+year I've just decided to make a concious effort to avoid them given my hobbies
+& future plans. I use a computer a lot, and I would like to continue using a
+computer a lot with as few negative affects as I can manage. I had the means to
+build my own badass keyboard, so I did.
+#+END_NOTES
+** Benefits of Ergo keyboards
+
 * Notable Mentions
 ** Kinesis Advantage2
 
@@ -85,11 +128,15 @@ But I would argue there are real health benefits to using a proper ergonomic key
 [[file:img/Atreus.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages: Small, single-board formfactor
-- Disadvantages: Not a split design,
+- Advantages: Small, single-board form factor
+- Disadvantages: Not a split design?
 - Open Source: Yes
 #+BEGIN_NOTES
-
+This is another keyboard I saw referenced a lot. It's a single board & not
+split, but it's small (the website shows it fitting in someone's jeans pocket).
+The single board design could be an advantage or disadvantage depending on what
+you're using it for. It's potentially less comfortable to use, but I see it
+being easy to grab & go if you're using it in a mobile set-up.
 #+END_NOTES
 
 ** Signum 3 (Troy Fletcher)
@@ -106,7 +153,6 @@ Notable differences between the Signum 3 & Atreus are the thumb clusters.
 
 ** Other Dactyl Variations
 *** Ergo Dactyl
-
 
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
@@ -141,17 +187,6 @@ Redesigned to fit Ergodox keycaps.
 
 #+END_NOTES
 
-* What is the Dactyl Keyboard?
-- Columnar, Ortholinear, written in Clojure
-** History or Background
-*** Matt's Clojurcon Youtube Video
-*** Matt's Reasons for making the design
-*** Dactyl was Written in Clojure with the Help of OpenSCAD
-** Reasons for Choosing Dactyl
-- Kinesis Advantage form factor
-- Open Source
-- Looked like the most comfortable design
-- Also looked hella cool
 * Dactyl Project
 ** My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
@@ -178,3 +213,5 @@ I have no affiliation or experience with the following. YMMV!
 Crowd sourced, limited manufacturing.
 - [[https://ergodox-ez.com][Ergodox EZ]]
 - [[https://ohkeycaps.com][OhKeycaps.com]]
+* References
+<<Target>>Das Blog.com
