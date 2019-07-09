@@ -30,14 +30,16 @@ Twitter, so don't bother looking for me there.
 
 * So, what is this Dactyl Keyboard thing?
 [[file:img/brooke_baldwin.jpg]]
-* Columnar, Ortholinear, written in Clojure
+* Parameterized, Split-Hand, Concave, Columnar, Ergonomic Keyboard
+- Written in Clojure
 #+BEGIN_NOTES
 Those are a lot of fancy words. What does any of that mean? Well we'll get back
 to that.
 #+END_NOTES
 
 ** History or Background
-- Matt's Clojurcon Youtube Video
+<video width="560" height="315" src="https://www.youtube.com/embed/uk3A41U0iO4" frameborder="0" allowfullscreen></video>
+- https://www.youtube.com/watch?v=uk3A41U0iO4
 - Matt's Reasons for making the design
 - Dactyl was Written in Clojure with the Help of OpenSCAD
 ** Reasons for Choosing Dactyl
@@ -98,7 +100,7 @@ build my own badass keyboard, so I did.
 As I
 #+END_NOTES
 
-** ErgoDox EZ
+** [[][ErgoDox EZ]]
 
 [[file:img/Ergodox_EZ.jpg]]
 
@@ -111,7 +113,7 @@ One of the most popular ergo keyboards I've seen. It's garnered the attention &
 a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], and has a [[https://www.ergodox.io/][long open source history]].
 #+END_NOTES
 
-** Let's Split
+** [[https://github.com/nicinabox/lets-split-guide][Let's Split]]
 
 [[file:img/Let's_Split.jpg]]
 
@@ -123,7 +125,7 @@ a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], 
 
 #+END_NOTES
 
-** Atreus
+** [[][Atreus]]
 
 [[file:img/Atreus.jpg]]
 
@@ -139,7 +141,7 @@ you're using it for. It's potentially less comfortable to use, but I see it
 being easy to grab & go if you're using it in a mobile set-up.
 #+END_NOTES
 
-** Signum 3 (Troy Fletcher)
+** [[][Signum 3 (Troy Fletcher)]]
 
 [[file:img/Signum3.0.jpg]]
 
@@ -152,7 +154,8 @@ Notable differences between the Signum 3 & Atreus are the thumb clusters.
 #+END_NOTES
 
 ** Other Dactyl Variations
-*** Ergo Dactyl
+*** [[][Ergo Dactyl]]
+
 
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
@@ -160,11 +163,15 @@ Notable differences between the Signum 3 & Atreus are the thumb clusters.
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-Redesigned to fit Ergodox keycaps.
+This was a pull request by Joe Devivo (One of the writers of the earlier build
+guides). He was attempting to add some changes to fit the Ergodox keycaps, but
+the latest update to the pull was from 2017. /u/chrystalhand has apparently made
+more updates to the design and is [[https://www.reddit.com/user/crystalhand/comments/96xu7g/3d_printed_dactylmanuform_cases/][trying to market it on Reddit]] and [[https://ohkeycaps.com/products/built-to-order-dactyl-manuform-keyboard][OhKeycaps.com]]. I don't know if
+he's made the source available.
 #+END_NOTES
 
 
-*** Lightcycle Dactyl
+*** [[][Lightcycle Dactyl]]
 
 
 
@@ -173,10 +180,13 @@ Redesigned to fit Ergodox keycaps.
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-
+In the main repository you'll find this as an option along with the 'cherry' version. The LightCycle version of
+the Dactyl has fewer thumb cluster switch positions, and was designed to match with the [[http://matias.ca/switches/][Matias
+ALPS-inspired mechanical keyswitches]]. The 'cherry' one is the same design, but
+meant to fit with Cherry MX mechanical switches.
 #+END_NOTES
 
-*** Dactyl Manuform
+*** [[Dactyl Manuform][]]
 
 
 
@@ -184,15 +194,18 @@ Redesigned to fit Ergodox keycaps.
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-
+I think probably the best designed of all of the options I've seen. The Manuform
+retains all of the features you would look for in the original, but lowers the
+thumb clusters so that you hands can remain in a more natural position. Notable
+hardware differences between this & the original are the use of DSA keycaps used
+and the use of 2 Pro Micros for the microcontroller. I'll probably build &
+switch to this in the future.
 #+END_NOTES
 
 * Dactyl Project
 ** My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
 - Sense of self-satisfaction
-- Building my own helps me to improve the project by contributing personal
-  improvements back (Open Source)
 - I already own a 3D printer
 - Screw paying someone else >$300, I'll just build my own!
 - One year later joke
@@ -200,7 +213,13 @@ Redesigned to fit Ergodox keycaps.
 *** Shell/Case
 *** Switches & Keycaps
 *** Hardware
+*** Etching
+- 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (muriatic acid)
 *** PCB & Wiring
+- The curcuit desigt in the repo is inaccurate. I had to flip around some of
+  the designs because they were backwards. I didn't find this out until after my
+  first attempt at etching. Luckily I had another sheet of Pyralux that I bought
+  in case I encountered those kinds of problems.
 *** Firmware
 *** How Does it Work?
 - Explain matrix positions
@@ -210,10 +229,20 @@ Redesigned to fit Ergodox keycaps.
 - Which way to wire the diodes
 - How the keyboard is controlled by the MC (key matrix)
 * Where To Buy
-I have no affiliation or experience with the following. YMMV!
 - [[https://drop.com][Drop.com (formerly MassDrop)]]
 Crowd sourced, limited manufacturing.
-- [[https://ergodox-ez.com][Ergodox EZ]]
+#+BEGIN_NOTES
+
+#+END_NOTES
 - [[https://ohkeycaps.com][OhKeycaps.com]]
+Working with members of the reddit mechanical keyboard community to
+commercialize different Dactyl variations.
+- [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][Let's Split PCBs]]
+=I have no affiliation or experience with the following. YMMV!==
+** Hardware & Accessories
+- [[https://kbdfans.com]]
+- [[https://aliexpress.com]]
+- [[https://pimpmykeyboard.com/]]
+- [[https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=9]]
 * References
 <<Target>>Das Blog.com
