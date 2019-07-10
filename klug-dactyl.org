@@ -249,7 +249,7 @@ switch to this in the future.
   Acid, found on Amazon.)
 - All etching tutorial info (Storage & reuse)
 *** Etching Process
-#+REVEAL_HTML: <section><video controls><source data-src="~/Movies/Etching.mp4" type="video/mp4" /></video></section>
+#+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
 #+BEGIN_NOTES
 Make note of 'adding the acid', copper lifting, color of solution, Kapton tape
 backing & sanding residue (220)
