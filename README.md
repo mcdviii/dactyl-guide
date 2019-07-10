@@ -1,28 +1,28 @@
 
 # Table of Contents
 
-1.  [Parts List](#org87753fa)
-    1.  [Retailers](#orga406b28)
-2.  [Part Dimensions & Other Considerations](#org52fa390)
-    1.  [Key Switches](#orga88e80a)
-    2.  [Key Caps](#org1b39150)
-        1.  [Profile:](#orgc4e4eeb)
-        2.  [Material:](#org05f4198)
-3.  [Step-by-step instructions](#org0ee1763)
-    1.  [Preparation](#orga17824e)
-    2.  [Circuit design](#org6273d55)
-    3.  [Notes on Xerox direct-print to Pyralux](#orgc8497d8)
-    4.  [Etching](#orga44fd16)
-    5.  [Wiring](#org71c4ca7)
-        1.  [Prerequisites](#org0697e7f)
-        2.  [Diode position (Row-driven vs. Column-driven )](#org3ef9458)
-    6.  [PCB Layering instructions](#org75ca24c)
-    7.  [Firmware guide](#orgd127d00)
-        1.  [config.qmk.fm](#orgb8e76ea)
+1.  [Parts List](#org9b2e26a)
+    1.  [Retailers](#orgc56983e)
+2.  [Part Dimensions & Other Considerations](#org2c2a70a)
+    1.  [Key Switches](#orgd1565c9)
+    2.  [Key Caps](#orgfe6465e)
+        1.  [Profile:](#orgc58df15)
+        2.  [Material:](#orgc55aed2)
+3.  [Step-by-step instructions](#org02adc32)
+    1.  [Preparation](#org09cc69a)
+    2.  [Circuit design](#org86230cd)
+    3.  [Notes on Xerox direct-print to Pyralux](#orgc05cd47)
+    4.  [Etching](#org248e197)
+    5.  [Wiring](#org4ee8049)
+        1.  [Prerequisites](#org9aee5b9)
+        2.  [Diode position (Row-driven vs. Column-driven )](#org606ade1)
+    6.  [PCB Layering instructions](#org05cecf8)
+    7.  [Firmware guide](#org0026bf4)
+        1.  [config.qmk.fm](#org530d143)
 
 
 
-<a id="org87753fa"></a>
+<a id="org9b2e26a"></a>
 
 # Parts List
 
@@ -80,19 +80,13 @@ Things you'll need.
 
 <tbody>
 <tr>
-<td class="org-left">Total:</td>
-<td class="org-right">total([])</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">Total</td>
+<td class="org-right">232.</td>
 </tr>
 </tbody>
 </table>
 
--   Price considerations
+-   Costs provided are approximations.
     This table represents what I purchased my hartware for. YMMV.
 -   You can get switch-dampening o-rings for as little as $2.00 if you're willing
     to wait for them to ship from China.
@@ -100,7 +94,7 @@ Things you'll need.
     around the $50-$60 price point.
 
 
-<a id="orga406b28"></a>
+<a id="orgc56983e"></a>
 
 ## Retailers
 
@@ -109,7 +103,7 @@ Things you'll need.
 -   <https://kbdfans.com>
 
 
-<a id="org52fa390"></a>
+<a id="org2c2a70a"></a>
 
 # Part Dimensions & Other Considerations
 
@@ -151,7 +145,7 @@ Things you'll need.
 </table>
 
 
-<a id="orga88e80a"></a>
+<a id="orgd1565c9"></a>
 
 ## Key Switches
 
@@ -166,12 +160,12 @@ Things you'll need.
     the next most tactile model above whatever Cherry MX switch you prefer.
 
 
-<a id="org1b39150"></a>
+<a id="orgfe6465e"></a>
 
 ## Key Caps
 
 
-<a id="orgc4e4eeb"></a>
+<a id="orgc58df15"></a>
 
 ### Profile:
 
@@ -184,7 +178,7 @@ will be the best.
 -   SA:
 
 
-<a id="org05f4198"></a>
+<a id="orgc55aed2"></a>
 
 ### Material:
 
@@ -196,12 +190,12 @@ You'll see two main types of material more than any others: ABS & PBT.
 -   PBT:
 
 
-<a id="org0ee1763"></a>
+<a id="org02adc32"></a>
 
 # Step-by-step instructions
 
 
-<a id="orga17824e"></a>
+<a id="org09cc69a"></a>
 
 ## Preparation
 
@@ -210,27 +204,27 @@ Before wiring, be sure to heatshrink the standoffs to prevent shorts. I found 1/
 heatshrink tubing works best.
 
 
-<a id="org6273d55"></a>
+<a id="org86230cd"></a>
 
 ## Circuit design
 
 
-<a id="orgc8497d8"></a>
+<a id="orgc05cd47"></a>
 
 ## Notes on Xerox direct-print to Pyralux
 
 
-<a id="orga44fd16"></a>
+<a id="org248e197"></a>
 
 ## Etching
 
 
-<a id="org71c4ca7"></a>
+<a id="org4ee8049"></a>
 
 ## Wiring
 
 
-<a id="org0697e7f"></a>
+<a id="org9aee5b9"></a>
 
 ### TODO Prerequisites
 
@@ -238,7 +232,7 @@ heatshrink tubing works best.
 -   Key matrix explanation
 
 
-<a id="org3ef9458"></a>
+<a id="org606ade1"></a>
 
 ### Diode position (Row-driven vs. Column-driven )
 
@@ -248,17 +242,17 @@ For a row-driven keyboard, the cathode ends of the diodes should face away from 
 allows the current to flow from the row, through the switch and out through the column.
 
 
-<a id="org75ca24c"></a>
+<a id="org05cecf8"></a>
 
 ## PCB Layering instructions
 
 
-<a id="orgd127d00"></a>
+<a id="org0026bf4"></a>
 
 ## Firmware guide
 
 
-<a id="orgb8e76ea"></a>
+<a id="org530d143"></a>
 
 ### config.qmk.fm
 
