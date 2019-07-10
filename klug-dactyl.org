@@ -253,6 +253,7 @@ switch to this in the future.
   the designs because they were backwards. I didn't find this out until after my
   first attempt at etching. Luckily I had another sheet of Pyralux that I bought
   in case I encountered those kinds of problems.
+- Had to cross reference wiring with imgur images.
 - Resistors for LEDs
 **** PSA: TRRS /not/ TRS!
 - Include comparison.
