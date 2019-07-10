@@ -214,11 +214,9 @@ hardware differences between this & the original are the use of DSA keycaps used
 and the use of 2 Pro Micros for the microcontroller. I'll probably build &
 switch to this in the future.
 #+END_NOTES
-
+#+REVEAL_HTML: <section data-background-iframe="https://xahlee.info/kbd/diy_keyboards_index.html" data-background-interactive></section>
 * More Do-it-Yourself Options
-
 =There is a very nice list of other ergonomic keyboards, with pictures, on Xah Lee's website.=
-
 - [[http://xahlee.info/kbd/diy_keyboards_index.html]]
 
 * Reasons for Choosing Dactyl
@@ -247,7 +245,17 @@ switch to this in the future.
 - Go over keycap profiles
 - Keycap material, count & price
 ** Etching
-- 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (muriatic acid)
+- 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (Marketed as 'safer' Muriatic
+  Acid, found on Amazon.)
+- All etching tutorial info (Storage & reuse)
+*** Etching Process
+#+REVEAL_HTML: <section><video controls><source data-src="media/Etching.mp4" type="video/mp4" /></video></section>
+
+[[file:media/Etching.mp4]]
+#+BEGIN_NOTES
+Make note of 'adding the acid', copper lifting, color of solution, Kapton tape
+backing & sanding residue (220)
+#+END_NOTES
 ** PCB & Wiring
 - The circuit design in the repo is inaccurate. I had to flip around some of
   the designs because they were backwards. I didn't find this out until after my
