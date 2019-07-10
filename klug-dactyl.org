@@ -32,37 +32,25 @@ Twitter, so don't bother looking for me there.
 [[file:img/brooke_baldwin.jpg]]
 * Parameterized, Split-Hand, Concave, Columnar, Ergonomic Keyboard
 - Written in Clojure
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
+[[file:img/chan.png]]
 #+BEGIN_NOTES
-Those are a lot of fancy words. What does any of that mean? Well we'll get back
-to that.
-#+END_NOTES
-
-** History or Background
-<video width="560" height="315" src="https://www.youtube.com/embed/uk3A41U0iO4" frameborder="0" allowfullscreen></video>
-- https://www.youtube.com/watch?v=uk3A41U0iO4
-- Matt's Reasons for making the design
-- Dactyl was Written in Clojure with the Help of OpenSCAD
-** Reasons for Choosing Dactyl
-- Kinesis Advantage form factor
-- Open Source
-- Looked like the most comfortable design
-- Also looked hella cool
-
-* Why Would You Want That?
-
-#+BEGIN_NOTES
-While browsing around looking at these ergonomic keyboards I see a recurring
-question: "Why would you need/want that.", and I think that it's a fair question.
-It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
-outside observer it might look like an expensive, showy & unnecessary gadget.
-But I think there are real health benefits to using a proper ergonomic keyboard, and in
-this talk I'd like to go over some of the things I've found while looking into the topic.
+Those are a lot of fancy words. What does all of that mean? Well let's look at
+the project & see how it compares to a regular keyboard to answer that.
 #+END_NOTES
 #+BEGIN_NOTES
 First I think we need to get a better understanding of why a regular
 keyboard is the way it is, so that we can understand what we're working with.
 #+END_NOTES
-** Let's look at a regular keyboard
+
+* History & Background
+[[yt:uk3A41U0iO4]]
+- [[https://www.youtube.com/watch?v=uk3A41U0iO4]]
+- Started March 2015
+- Matt's Reasons for making the design
+- Dactyl was Written in Clojure with the Help of OpenSCAD
+
+* Let's look at a regular keyboard
 - History of Typwriter According to Matt Addereth
 - Keyboard design may be a bit antiquated
 #+BEGIN_NOTES
@@ -77,6 +65,8 @@ that out of the way, let's look at some things the internet tells you not to do.
   [[https://www.rsiprevention.com/rsi_prevention.php]]
 - Other relatable reasons (Programmers, emacs pinky)
 - My personal reasons
+
+** Benefits of Ergo keyboards
 #+BEGIN_NOTES
 I consider my hands to be my greatest physical asset, other than my brain. To be
 clear, I don't experience RSI issues, nor have I ever. But, over the past
@@ -85,10 +75,32 @@ year I've just decided to make a concious effort to avoid them given my hobbies
 computer a lot with as few negative affects as I can manage. I had the means to
 build my own badass keyboard, so I did.
 #+END_NOTES
-** Benefits of Ergo keyboards
+
+* Why Would You Want That?
+#+BEGIN_NOTES
+While browsing around looking at these ergonomic keyboards I see a recurring
+question: "Why would you need/want that.", and I think that it's a fair question.
+It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
+outside observer it might look like an expensive, showy & unnecessary gadget.
+But I think there are real health benefits to using a proper ergonomic keyboard, and in
+this talk I'd like to go over some of the things I've found while looking into the topic.
+#+END_NOTES
+
+#+BEGIN_NOTES
+Now the reason I went over the RSI examples is to demonstrate how a regular
+keyboard ~postures & how the designs of these ergonomic keyboards I'm about to
+show you are informed by those issues and how they ~mitigate
+You can see how the design was informed to try and mitigate these things the
+internet tells us not to do.
+#+END_NOTES
 
 * Notable Mentions
-** Kinesis Advantage2
+#+BEGIN_NOTES
+The original Dactyl design is what I chose to go with, and I'll go over my
+reasons for that later on. But first I'd like to quickly show everyone some
+other option available & what I like and don't like about them.
+#+END_NOTES
+** [[https://kinesis-ergo.com/shop/advantage2/][Kinesis Advantage2]]
 
 [[file:img/Kinesis_Adv2.jpg]]
 
@@ -100,7 +112,7 @@ build my own badass keyboard, so I did.
 As I
 #+END_NOTES
 
-** [[][ErgoDox EZ]]
+** [[https://ergodox-ez.com/][ErgoDox EZ]]
 
 [[file:img/Ergodox_EZ.jpg]]
 
@@ -125,7 +137,7 @@ a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], 
 
 #+END_NOTES
 
-** [[][Atreus]]
+** [[https://atreus.technomancy.us/][Atreus]]
 
 [[file:img/Atreus.jpg]]
 
@@ -141,7 +153,7 @@ you're using it for. It's potentially less comfortable to use, but I see it
 being easy to grab & go if you're using it in a mobile set-up.
 #+END_NOTES
 
-** [[][Signum 3 (Troy Fletcher)]]
+** [[http://troyfletcher.net/keyboard_sales.html][Signum 3 (Troy Fletcher)]]
 
 [[file:img/Signum3.0.jpg]]
 
@@ -151,12 +163,13 @@ being easy to grab & go if you're using it in a mobile set-up.
 - Open Source:
 #+BEGIN_NOTES
 Notable differences between the Signum 3 & Atreus are the thumb clusters.
+Reference Youtube channel.
 #+END_NOTES
 
-** Other Dactyl Variations
-*** [[][Ergo Dactyl]]
+* Other Dactyl Variations
+** [[https://github.com/adereth/dactyl-keyboard/pull/48][Dactyl Ergodox]]
 
-
+[[file:img/Dactyl Ergodox.png]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
@@ -170,12 +183,11 @@ more updates to the design and is [[https://www.reddit.com/user/crystalhand/comm
 he's made the source available.
 #+END_NOTES
 
-
-*** [[][Lightcycle Dactyl]]
-
+** [[https://github.com/adereth/dactyl-keyboard/tree/master/things][Lightcycle Dactyl]]
 
 
-#+ATTR_REVEAL: :frag (fade-in fade-in)  1 2)
+
+#+ATTR_REVEAL: :frag (fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -186,10 +198,11 @@ ALPS-inspired mechanical keyswitches]]. The 'cherry' one is the same design, but
 meant to fit with Cherry MX mechanical switches.
 #+END_NOTES
 
-*** [[Dactyl Manuform][]]
+** [[https://github.com/tshort/dactyl-keyboard][Dactyl Manuform]]
 
+[[file:img/Dactyl Manuform.jpg]]
 
-
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
 - Disadvantages:
 - Open Source:
@@ -202,33 +215,64 @@ and the use of 2 Pro Micros for the microcontroller. I'll probably build &
 switch to this in the future.
 #+END_NOTES
 
-* Dactyl Project
+* More Do-it-Yourself Options
+
+=There is a very nice list of other ergonomic keyboards, with pictures, on Xah Lee's website.=
+
+- [[http://xahlee.info/kbd/diy_keyboards_index.html]]
+
+* Reasons for Choosing Dactyl
+- Open Source
+- Kinesis Advantage form factor
+- Looked like the most comfortable design
+- Also looked hella cool
 ** My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
 - Sense of self-satisfaction
 - I already own a 3D printer
 - Screw paying someone else >$300, I'll just build my own!
 - One year later joke
-** Build Overview
-*** Shell/Case
-*** Switches & Keycaps
-*** Hardware
-*** Etching
+* Build Overview
+** Shell/Case & Hardware
+- Time
+- Apologize for lack of media
+- Print process involved trial & error. Segway into 3D print & support material.
+- Hardware dimensions & heating countersunk screws. Make point of heatshrink on standoffs.
+#+BEGIN_NOTES
+
+#+END_NOTES
+
+** Switches & Keycaps
+- Fits Cherry MX switches, explain what they are
+- Go over keycap profiles
+- Keycap material, count & price
+** Etching
 - 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (muriatic acid)
-*** PCB & Wiring
-- The curcuit desigt in the repo is inaccurate. I had to flip around some of
+** PCB & Wiring
+- The circuit design in the repo is inaccurate. I had to flip around some of
   the designs because they were backwards. I didn't find this out until after my
   first attempt at etching. Luckily I had another sheet of Pyralux that I bought
   in case I encountered those kinds of problems.
-*** Firmware
-*** How Does it Work?
+- Resistors for LEDs
+**** PSA: TRRS /not/ TRS!
+- Include comparison.
+#+BEGIN_NOTES
+
+#+END_NOTES
+** Firmware
+** How Does it Work?
 - Explain matrix positions
-*** Challenges
-- Hardware, clearance & dimentions
+** Challenges
+- Hardware, clearance & dimensions
+- Choosing LED Resistors
+- PCB design
 - PCB etching (I probably went the most expensive route.)
 - Which way to wire the diodes
+- Wiring the Teensy
 - How the keyboard is controlled by the MC (key matrix)
-* Where To Buy
+** What Did it Cost?
+- Parts table
+* Resources
 - [[https://drop.com][Drop.com (formerly MassDrop)]]
 Crowd sourced, limited manufacturing.
 #+BEGIN_NOTES
@@ -238,11 +282,10 @@ Crowd sourced, limited manufacturing.
 Working with members of the reddit mechanical keyboard community to
 commercialize different Dactyl variations.
 - [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][Let's Split PCBs]]
-=I have no affiliation or experience with the following. YMMV!==
+=I have no affiliation or experience with the above. YMMV!=
 ** Hardware & Accessories
 - [[https://kbdfans.com]]
 - [[https://aliexpress.com]]
+  [[https://digikey.com]]
 - [[https://pimpmykeyboard.com/]]
 - [[https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=9]]
-* References
-<<Target>>Das Blog.com
