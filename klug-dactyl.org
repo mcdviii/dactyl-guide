@@ -117,7 +117,7 @@ feel of the plastic being light & inexpensive. Not something you want to hear
 when you drop over $300 on something exclusively commercial.
 #+END_NOTES
 
-** [[https://ergodox-ez.com/][ErgoDox EZ]]
+** [[https://ergodox-ez.com/][ErgoDox (EZ)]]
 
 [[file:img/Ergodox_EZ.jpg]]
 
@@ -173,12 +173,17 @@ being easy to grab & go if you're using it in a mobile set-up.
 [[file:img/Signum3.0.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvantages: Expensive (PCB is $)
+- Advantages: Very simple design (solder on components, nothing else to worry about)
+- Disadvantages: PCB is $80, no case for protection
 - Open Source: Yes?
 #+BEGIN_NOTES
-Notable differences between the Signum 3 & Atreus are the thumb clusters.
-Reference Youtube channel.
+The guy who makes this is a freelance programmer based in Kentucky. He has a
+youtube channel that's pretty interesting if you're into vlogs. The notable
+differences between this & Atreus on the previous slide are the thumb cluster
+positions and the exposed PCB. It does look like the entire board is covered
+with a solder mask, but it won't be as protected if dropped. It looks like there
+is a repo made for this on github, but there's not much in it. You may need to
+contact the author for product designs if you need them.
 #+END_NOTES
 
 * Other Dactyl Variations
@@ -200,15 +205,16 @@ he's made the source available.
 
 ** [[https://github.com/adereth/dactyl-keyboard/tree/master/things][Lightcycle Dactyl]]
 
-
+[[file:img/LightCycle.jpeg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in)
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Slightly smaller footprint (fewer keys)
+- Disadvantages: STL files for 3D printing appear to need more repair than basic model
+- Open Source: Yes
 #+BEGIN_NOTES
 In the main repository you'll find this as an option along with the 'cherry'
-option for the same version. The LightCycle version of the Dactyl has fewer thumb cluster switch positions, and was designed to match with the [[http://matias.ca/switches/][Matias
+option for the same version. The LightCycle version of the Dactyl has fewer
+thumb cluster switch positions and one less row of keys It was originally designed to match with the [[http://matias.ca/switches/][Matias
 ALPS-inspired mechanical keyswitches]]. The 'cherry' version of this is the same
 design, but are meant to be fit with Cherry MX mechanical switches.
 #+END_NOTES
@@ -285,7 +291,10 @@ backing & sanding residue (220)
 #+END_NOTES
 ** Firmware
 ** How Does it Work?
-- Explain matrix positions
+[[file:img/howkeymatriceswork.gif]]
+#+BEGIN_NOTES
+
+#+END_NOTES
 ** Challenges
 - Hardware, clearance & dimensions
 - Choosing LED Resistors
@@ -310,7 +319,9 @@ commercialize different Dactyl variations.
 ** Tutorials
 [[https://www.youtube.com/watch?v=4dZ2LKe7660
 j][Etching with Muriatic Acid & Hydrgen Peroxide]]
-** Hardware & Accessories
+[[https://www.instructables.com/id/Making-flexible-PCBs-with-a-laser-jet-printer-or-c/]]
+[[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
+** HARDWARE & Accessories
 - [[https://kbdfans.com]]
 - [[https://aliexpress.com]]
   [[https://digikey.com]]
