@@ -290,6 +290,9 @@ Working with members of the reddit mechanical keyboard community to
 commercialize different Dactyl variations.
 - [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][Let's Split PCBs]]
 =I have no affiliation or experience with the above. YMMV!=
+** Tutorials
+[[https://www.youtube.com/watch?v=4dZ2LKe7660
+j][Etching with Muriatic Acid & Hydrgen Peroxide]]
 ** Hardware & Accessories
 - [[https://kbdfans.com]]
 - [[https://aliexpress.com]]
