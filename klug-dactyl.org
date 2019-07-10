@@ -87,7 +87,7 @@ this talk I'd like to go over some of the things I've found while looking into t
 #+END_NOTES
 
 #+BEGIN_NOTES
-Now the reason I went over the RSI examples is to demonstrate how a regular
+So the reason I went over the RSI examples is to demonstrate how a regular
 keyboard ~postures & how the designs of these ergonomic keyboards I'm about to
 show you are informed by those issues and how they ~mitigate
 You can see how the design was informed to try and mitigate these things the
@@ -105,11 +105,16 @@ other option available & what I like and don't like about them.
 [[file:img/Kinesis_Adv2.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvanteges: $320.00 USD
+- Advantages: Widely considered the best ergo keyboard commercially available
+- Disadvanteges: $320.00 USD, some reviews describe feeling 'cheap'
 - Open Source: No
 #+BEGIN_NOTES
-As I
+As I first started really focusing on learning tools like bash & emacs, I
+started hearing allusions to RSI, & more than a few references to this keyboard.
+It's probably the best commercial ergo keyboard you can get, but it comes at a
+price. Also, I think it was a review by Linus Tech Tips where he describes the
+feel of the plastic being light & inexpensive. Not something you want to hear
+when you drop over $300 on something exclusively commercial.
 #+END_NOTES
 
 ** [[https://ergodox-ez.com/][ErgoDox EZ]]
@@ -117,12 +122,17 @@ As I
 [[file:img/Ergodox_EZ.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Lots of support if building from scratch, also may be a better
+  product than Advantage2
+- Disadvantages: Also about $300 if purchased commercially (depending on the options)
+- Open Source: Both commercially available & open source
 #+BEGIN_NOTES
 One of the most popular ergo keyboards I've seen. It's garnered the attention &
-a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], and has a [[https://www.ergodox.io/][long open source history]].
+a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], and has a [[https://www.ergodox.io/][long open source history]]. As far as I
+can tell, the Ergodox project really kickstarted the idea of open source
+keyboard hardware. You see references to it everywhere, and its popularity on
+the ergo keyboard space is unavoidable. If you go the DIY route, you can find blank PCBs somewhat
+readily, and the rest of the parts can be easily sourced yourself.
 #+END_NOTES
 
 ** [[https://github.com/nicinabox/lets-split-guide][Let's Split]]
@@ -130,11 +140,16 @@ a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], 
 [[file:img/Let's_Split.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Split-hand, simple, affordable design (~$100 USD)
+- Disadvantages: Not concave
+- Open Source: Yes
 #+BEGIN_NOTES
-
+This was my first introduction to the idea of an open source keyboard. I was
+browsing thingiverse (A place where people share their 3D print designs), and
+someone had shared a brakcket they used to attach this keyboard to their laptop.
+I remembered that, and after looking at the previou Kinesis keyboard, I wondered
+if anyone had started a project similar to that design, but open source & with a
+split form factor. Someone had, and that's why I'm here.
 #+END_NOTES
 
 ** [[https://atreus.technomancy.us/][Atreus]]
@@ -159,8 +174,8 @@ being easy to grab & go if you're using it in a mobile set-up.
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - Advantages:
-- Disadvantages:
-- Open Source:
+- Disadvantages: Expensive (PCB is $)
+- Open Source: Yes?
 #+BEGIN_NOTES
 Notable differences between the Signum 3 & Atreus are the thumb clusters.
 Reference Youtube channel.
@@ -172,9 +187,9 @@ Reference Youtube channel.
 [[file:img/Dactyl Ergodox.png]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Reuse your Ergodox keycaps (finding correct amount of keys can be difficult)
+- Disadvantages: Incomplete design
+- Open Source: Yes
 #+BEGIN_NOTES
 This was a pull request by Joe Devivo (One of the writers of the earlier build
 guides). He was attempting to add some changes to fit the Ergodox keycaps, but
@@ -192,10 +207,10 @@ he's made the source available.
 - Disadvantages:
 - Open Source:
 #+BEGIN_NOTES
-In the main repository you'll find this as an option along with the 'cherry' version. The LightCycle version of
-the Dactyl has fewer thumb cluster switch positions, and was designed to match with the [[http://matias.ca/switches/][Matias
-ALPS-inspired mechanical keyswitches]]. The 'cherry' one is the same design, but
-meant to fit with Cherry MX mechanical switches.
+In the main repository you'll find this as an option along with the 'cherry'
+option for the same version. The LightCycle version of the Dactyl has fewer thumb cluster switch positions, and was designed to match with the [[http://matias.ca/switches/][Matias
+ALPS-inspired mechanical keyswitches]]. The 'cherry' version of this is the same
+design, but are meant to be fit with Cherry MX mechanical switches.
 #+END_NOTES
 
 ** [[https://github.com/tshort/dactyl-keyboard][Dactyl Manuform]]
@@ -203,9 +218,11 @@ meant to fit with Cherry MX mechanical switches.
 [[file:img/Dactyl Manuform.jpg]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages:
-- Disadvantages:
-- Open Source:
+- Advantages: Thumb clusters are brought down to a more natural position, Case
+  is larger making wiring less tedious
+- Disadvantages: Must be wired by hand, all of the challenges that come with
+  original Dactyl
+- Open Source: Yes
 #+BEGIN_NOTES
 I think probably the best designed of all of the options I've seen. The Manuform
 retains all of the features you would look for in the original, but lowers the
