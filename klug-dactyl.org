@@ -405,7 +405,7 @@ would apply enough wax to hold the design together.
 [[file:img/IMG_20190630_232417.jpg]]
 
 ** Etching
-#+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
+#+REVEAL_HTML: <section><video controls><source data-src="media/Etching.mp4" type="video/mp4" /></video></section>
 #+REVEAL: split
 [[file:img/IMG_20190701_124022.jpg]]
 #+BEGIN_NOTES
@@ -483,7 +483,7 @@ that's more likely due to a short in the right half that I still need to diagnos
 #+END_NOTES
 
 ** Firmware
-#+BEIGN_NOTES
+#+BEGIN_NOTES
 So I have a spare Teensy 2.0 here, and I think instead of describing the
 flashing process I'll just show you.
 I'll be loading QMK firmware onto this. It's the most popular and widely
@@ -522,8 +522,9 @@ Seems to be the primary vendor for the Let's Split PCBs
 
 ** Tutorials
 - [[https://www.youtube.com/watch?v=4dZ2LKe7660][Etching with Muriatic Acid & Hydrgen Peroxide]]
-- [[https://www.youtube.com/watch?v=1nwnnMoudu0][HongKongGhost]]
-- [[https://www.youtube.com/watch?v=NfcgA1axPLo][AfrotechMods on resistanc]]
+- [[https://www.youtube.com/watch?v=1nwnnMoudu0][HongKongGhost - Dactyl
+  Hand-Wiring Build Video]]
+- [[https://www.youtube.com/watch?v=NfcgA1axPLo][AfrotechMods on resistance]]
 - [[https://www.instructables.com/id/Making-flexible-PCBs-with-a-laser-jet-printer-or-c/]]
 - [[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
 
