@@ -3,7 +3,7 @@
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: fade
 #+REVEAL_MAX_SCALE: 0.85
-#+REVEAL_MARGIN: 0.2
+#+REVEAL_MARGIN: 0.02
 #+OPTIONS: reveal_slide_number:nil toc:nil num:nil
 
 * Tim Anderson
@@ -47,7 +47,7 @@ could find some clues to that on his Twitter page. There are some obvious
 similarities between this and another keyboard commercially available that I'll
 show later on, and I think he drew inspiration & motivation from that.
 
-If you're wondering what dactyl means, it's defined by the [[https://www.thefreedictionary.com/dactyl][freeonlindictionary]]
+If you're wondering what dactyl means, it's defined by the [[https://www.thefreedictionary.com/dactyl][freeonlinedictionary]]
 as: finger, toe or digit.
 
 The really interesting thing about this project is that the mesh was written in Lisp. If
@@ -62,7 +62,7 @@ interpret Clojure and convert it into the language that OpenSCAD understands.
 - Last commit was in 2017
 - Left in unfinished state & appears to be abandoned
 - Documentation is left unfinished
-- OpenSCAD functions don't stay consistant between OpenSCAD versions or otherwise
+- OpenSCAD functions don't stay consistant between versions or otherwise
   don't play nice with lisp wrapper.
 - One of the most challenging DIY keyboard builds to take on
 #+BEGIN_NOTES
@@ -72,13 +72,13 @@ community members. Once you understand the basics of how the electronics work, i
 not too complicated, but it reqiures quite a bit of research from dispirate
 sources.
 
-The documentation for setting up the workflow to be fairly complete, but changes
+The documentation for setting up the workflow seems to be fairly complete, but changes
 between versions of OpenSCAD seem to break significant functionality and make
 using the workflow with the wrapper difficult. Many of the meshes other than the
 standard one currently have holes in them because of these issues.
 
-Because of all of these reasons, and the shape of the keyboard & minimal
-internal clearance for components, in my opinion this is probably one of the
+Because of all of these reasons--and the shape of the keyboard & minimal
+internal clearance for components--in my opinion, this is probably one of the
 most challenging DIY keyboard projects you could take on.
 #+END_NOTES
 
@@ -90,9 +90,9 @@ During my research into this other ergo keyboards I see a recurring
 question: "Why would you need/want that.", and I think that it's a fair question.
 It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
 outside observer it might look like an expensive, showy & unnecessary gadget.
-But I think there are real health benefits to using a proper ergonomic keyboard,
-and before I go any further into my build I'd like to justify myself in the eye
-of reason.
+But I think there are real benefits to using a proper ergonomic keyboard,
+and before I go any further into my build I'd like to show you a couple of examples of
+why I think ergonomic keyboards should become a standard.
 I don't experience RSI issues, nor have I ever. I'm just a guy who thought
 building my own keyboard would be both a fun & educational project, with a very
 practical benefit of protecting myself from injury in the future. I take the
@@ -111,18 +111,11 @@ So this is a regular keyboard, or what would be a regular keyboard if it were an
 actual image of one. The two things I want to point out here is the width of the design
 & the offset rows. The offset rows are holdovers from the days of typewriters.
 The letters were offset like that to allow for the armatures to clear each other
-when striking the paper. In terms of repetetive strain injury, this is
-unnecessary & bad, because with today's application this no longer serves any practical
-purpose, and it's bad because you're reaching for those keys that could
-be closer to your fingers by being placed in a straght vertical column, which would reduce the amount of
-reaching you would need to do while typing. It might not seem like much, but the
-repetition of an unnecessary movement will probably contribute to the risk of
-RSI. After looking at the other options available I just think this is a bad,
-outdated design.
-If your careers or hobbies depend on your ability to type, it
-would arguably be a good idea to at least invest some time
-into developing healther habits, before it's too late. For me, I thought a good
-ergo keyboard design could help me to do that.
+when striking the paper. In terms of today's application this is unnecessary and
+bad. The offset rows no longer serve any practical
+purpose. In terms of RSI injury, it's bad because you're reaching for those keys that could
+be closer to your fingers if they were placed in a straght vertical columns, which would reduce the amount of
+reaching you would need to do while typing.
 #+END_NOTES
 
 * Good Habits Vs. Bad
@@ -137,9 +130,9 @@ Most of these are other open source keyboards that you can build yourself.
 
 * Notable Mentions
 #+BEGIN_NOTES
-So the original Dactyl design is what I chose to go with, and I'll go over my
-reasons for that later on. But first I'd like to quickly show everyone some
-other options available out there & what I like and don't like about them.
+So the original Dactyl design is what I chose to build, and I'll go into that
+process after this sectior. But first I'd like to quickly show you some
+other options that I've seen mention of while digging into this topic.
 #+END_NOTES
 ** [[https://kinesis-ergo.com/shop/advantage2/][Kinesis Advantage2]]
 
@@ -151,12 +144,12 @@ other options available out there & what I like and don't like about them.
 - Disadvanteges: $320.00 USD, some reviews describe feeling 'cheap'
 - Open Source: No
 #+BEGIN_NOTES
-As I first started really focusing on learning tools like bash & emacs, I
+As I first started to really focus on learning tools like bash & emacs, I
 started hearing allusions to RSI, & more than a few references to this keyboard.
-It's probably the best commercial ergo keyboard you can get, but it comes at a
+It's probably the best commercial ergo keyboard you can get--from what I've heard--but it comes at a
 price. Also, I think it was a review by Linus Tech Tips where he describes the
 feel of the plastic being light & inexpensive. Not something you want to hear
-when you drop over $300 on something exclusively commercial.
+when you drop over $300 on something.
 #+END_NOTES
 
 ** [[https://ergodox-ez.com/][ErgoDox (EZ)]]
@@ -172,9 +165,9 @@ when you drop over $300 on something exclusively commercial.
 One of the most popular ergo keyboards I've seen. It's garnered the attention &
 a review from [[https://www.youtube.com/watch?v=LALQsqZP1nA][Linus Tech Tips]], and has a [[https://www.ergodox.io/][long open source history]]. As far as I
 can tell, the Ergodox project kickstarted the idea of open source
-keyboard hardware. You see references to it everywhere, and its popularity on
+keyboard hardware. You see references to it everywhere, and its popularity in
 the ergo keyboard space is unavoidable. Almost any split, open hardware design
-available has borrowed something from the ErgoDox. If you go the DIY route, you can find blank PCBs somewhat
+has borrowed something from the ErgoDox. If you go the DIY route, you can find blank PCBs somewhat
 readily, and the rest of the parts can be easily sourced yourself.
 #+END_NOTES
 
@@ -190,9 +183,7 @@ readily, and the rest of the parts can be easily sourced yourself.
 This was my first introduction to the idea of an open source keyboard. I was
 browsing thingiverse (A place where people share their 3D print designs), and
 someone had shared a brakcket they used to attach this keyboard to their laptop.
-I remembered that, and after looking at the previou Kinesis keyboard, I wondered
-if anyone had started a project similar to that design, but open source & with a
-split form factor. Someone had, and that's why I'm here.
+This is probably the cheapest & simpliest columnar, split design project I've seen.
 #+END_NOTES
 
 ** [[https://atreus.technomancy.us/][Atreus]]
@@ -204,8 +195,7 @@ split form factor. Someone had, and that's why I'm here.
 - Disadvantages: Not a split design?
 - Open Source: Yes
 #+BEGIN_NOTES
-This is another keyboard I saw referenced a lot. It's a single board & not
-split, but it's small (the website shows it fitting in someone's jeans pocket).
+This is another keyboard I saw referenced a lot. It's a single board, but it's small (the website shows it fitting in someone's jeans pocket).
 The single board design could be an advantage or disadvantage depending on what
 you're using it for. It's potentially less comfortable to use, but I see it
 being easy to grab & go if you're using it in a mobile set-up.
@@ -242,7 +232,7 @@ contact the author for product designs if you need them.
 #+BEGIN_NOTES
 This was a pull request by Joe Devivo (One of the writers of the earlier build
 guides). He was attempting to add some changes to fit the Ergodox keycaps, but
-the latest update to the pull was from 2017. /u/chrystalhand has apparently made
+the latest update to the pull was from 2017. /u/chrystalhand on Reddit has apparently made
 more updates to the design and is [[https://www.reddit.com/user/crystalhand/comments/96xu7g/3d_printed_dactylmanuform_cases/][trying to market it on Reddit]] and [[https://ohkeycaps.com/products/built-to-order-dactyl-manuform-keyboard][OhKeycaps.com]]. I don't know if
 he's made the source available.
 #+END_NOTES
@@ -259,7 +249,7 @@ he's made the source available.
 #+BEGIN_NOTES
 In the main repository you'll find this as an option along with the 'cherry'
 option for the same version. The LightCycle version of the Dactyl has fewer
-thumb cluster switch positions and one less row of keys It was originally designed to match with the [[http://matias.ca/switches/][Matias
+thumb cluster switch positions and one less row of keys. It was originally designed to match with the [[http://matias.ca/switches/][Matias
 ALPS-inspired mechanical keyswitches]]. The 'cherry' version of this is the same
 design, but are meant to be fit with Cherry MX mechanical switches.
 #+END_NOTES
@@ -276,10 +266,10 @@ design, but are meant to be fit with Cherry MX mechanical switches.
   original Dactyl
 - Open Source: Yes
 #+BEGIN_NOTES
-I think probably the best designed of all of the options I've seen. The Manuform
+I think this is probably the best designed of all of the options I've seen. The Manuform
 retains all of the features you would look for in the original, but lowers the
-thumb clusters so that you hands can remain in a more natural position. Notable
-hardware differences between this & the original are the use of DSA keycaps used
+thumb clusters so that your hands can remain in a more natural position.
+Other notable differences between this & the original Dactyl are the use of DSA keycaps
 and the use of 2 Pro Micros for the microcontroller. I'll probably build &
 switch to this in the future.
 #+END_NOTES
@@ -291,7 +281,7 @@ switch to this in the future.
 * Reasons for Choosing Dactyl
 - Open Source
 - Looked like the most comfortable design
-- Kinesis Advantage form factor, but open source (non-commercial)
+- Kinesis Advantage form factor, but DIY
 - Looks hella cool
 * My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
@@ -319,15 +309,17 @@ the bottom left half and I think it turned out pretty good.
 [[file:img/IMG_20190711_075410.jpg]]
 #+REVEAL: split
 [[file:img/IMG_20190711_075433.jpg]]
+#+REVEAL: split
+[[file:img/IMG_20190711_155341.jpg]]
 #+BEGIN_NOTES
-For hardware connecting the halves, there was no documentation for it so I
+For hardware connecting the top & bottom halves of the body, there was no documentation for it so I
 referenced some build videos on YouTube and dug through my collection of
 computer hardware & screws and found that 3mm female motherboard standoffs that
 were 6mm tall worked great with these 3mm countersunk screws. I took a soldering
 iron and heated the screws up while pushing them into the hole in the plastic to
 create a countersink. Without that countersink there would be clearance issues
 with keycaps, so the keycaps would hit the head of the screw when pressed down.
-I also added some 1/8" heatshrink tubing to the standoffs so that they wouldn't
+I also added some 1/4" heatshrink tubing to the standoffs so that they wouldn't
 cause any shorts with the wiring.
 #+END_NOTES
 
@@ -356,7 +348,7 @@ that reason.
 #+END_NOTES
 
 ** PCB Design
-[[file:assets/Dactyl_8x9.svg]]
+[[file:img/Dactyl_8x9.png]]
 #+BEGIN_NOTES
 Oh boy. So to start with, I've combined both the left-hand & right-hand PCB
 designs onto one sheet to save on material. The way this works is there's
@@ -450,8 +442,9 @@ to updates in the QMK firmware, but I don't know. It's something to be aware of.
 #+END_NOTES
 
 ** Notes on LEDs
+- Use Ohm's Law to match reistors to curret rating on LEDs (Assume 5v)
 #+BEGIN_NOTES
-Oh boy. One challenge I faced was how to choose resistors to match up with the
+One challenge I faced was how to choose resistors to match up with the
 LEDs, and what size LEDs to buy. LEDs need resistors paired with them so that
 they draw a steady current and don't become overloaded. You won't likely be able
 to find the current draw unless you purchase them with a documented current
