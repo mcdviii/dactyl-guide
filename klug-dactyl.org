@@ -6,11 +6,6 @@
 #+REVEAL_MARGIN: 0.2
 #+OPTIONS: reveal_slide_number:nil toc:nil num:nil
 
-#+BEGIN_NOTES
- Prices
- Digikey for Hardware Cost
- #+END_NOTES
-
 * Tim Anderson
 Who am I?
 - https://github.com/mcdviii
@@ -67,9 +62,9 @@ interpret Clojure and convert it into the language that OpenSCAD understands.
 - Last commit was in 2017
 - Left in unfinished state & appears to be abandoned
 - Documentation is left unfinished
-- OpenSCAD functions don't stay consistant between versions or otherwise
-  play nice with lisp wrapper.
-- Most challenging build to take on
+- OpenSCAD functions don't stay consistant between OpenSCAD versions or otherwise
+  don't play nice with lisp wrapper.
+- One of the most challenging DIY keyboard builds to take on
 #+BEGIN_NOTES
 So the repository appears to be abandoned since 2017. There are some pull
 requests left open, and the physical build documentation has been only partly provided by
@@ -88,7 +83,7 @@ most challenging DIY keyboard projects you could take on.
 #+END_NOTES
 
 * Why Tho?
-#+REVEAL :frag
+#+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
 - In short, because I can.
 #+BEGIN_NOTES
 During my research into this other ergo keyboards I see a recurring
@@ -240,7 +235,7 @@ contact the author for product designs if you need them.
 [[file:img/Dactyl Ergodox.png]]
 
 #+ATTR_REVEAL: :frag (fade-in fade-in fade-in)
-- Advantages: Reuse your Ergodox keycaps (finding correct amount of keys can be difficult)
+- Advantages: Reuse your Ergodox keycaps
 #+REVEAL: split
 - Disadvantages: Incomplete design
 - Open Source: Yes
@@ -288,7 +283,7 @@ hardware differences between this & the original are the use of DSA keycaps used
 and the use of 2 Pro Micros for the microcontroller. I'll probably build &
 switch to this in the future.
 #+END_NOTES
-#+REVEAL_HTML: <section data-background-iframe="https://xahlee.info/kbd/diy_keyboards_index.html" data-background-interactive></section>
+
 * More Do-it-Yourself Options
 =There is a very nice list of other ergonomic keyboards, with pictures, on Xah Lee's website.=
 - [[http://xahlee.info/kbd/diy_keyboards_index.html]]
@@ -339,11 +334,27 @@ cause any shorts with the wiring.
 ** Switches
 - Fits Cherry MX switches
 #+BEGIN_NOTES
-So Cherry MX is the most popular switch manufacturer on the market.
+So Cherry MX is the most popular switch manufacturer on the market. Most
+mechanical keyboards use Cherry MX for key switches. There are several different
+models available which range from linear to tactile feel, quiet to noisy &
+clicky. I have 9 different ones to choose from here if anyone wants to test them
+out. There are knockoffs available on the market as well. Gaterons are a notable
+example (just be aware that colors/models differ between the two manufacturers).
 #+END_NOTES
 ** Keycaps
-- Go over keycap profiles
-- Keycap material, count & price
+[[file:img/keycap-profiles-reddit.jpg]]
+#+BEGIN_NOTES
+If you look at your OEM keyboard from the side, you'll notice a curve to the
+tops of the keys. The bottom row of keys also hav a different shape compared to
+the top row. This is called the keycap profile. SA is what's recommended for the
+standard Dactyl and what I've used in my build. DSA is what's recommended for
+the manuform.
+A quick note on keycap material: You'll see two main types of materials
+referenced when shopping for keycaps. ABS & PBT. ABS is cheaper, but fades over
+time. PBT is known for holding up better but is obviously more expensive for
+that reason.
+#+END_NOTES
+
 ** PCB Design
 [[file:assets/Dactyl_8x9.svg]]
 #+BEGIN_NOTES
@@ -365,6 +376,7 @@ to find 2 very nice photos of a nearly completed build.
 I used those to cross-reference the design, and I used Inkscape to flip each
 piece individually.
 #+END_NOTES
+
 ** Xerox Printer
 [[file:img/IMG_20190711_074742.jpg]]
 #+BEGIN_NOTES
@@ -377,6 +389,7 @@ jamming issues that I picked up for $50 from a guy in Rogers, MN. I found an
 official service manual on manualslib.com & pinpointed the offending sensors for the
 paper jamming issue and replaced them with parts sourced from ebay.
 #+END_NOTES
+
 ** Preparing the Copper for the Design
 [[file:img/IMG_20190630_231134.jpg]]
 #+BEGIN_NOTES
@@ -387,6 +400,7 @@ the sheet as a normal 8 1/2" X 11" piece of paper. The last thing I did was
 change the print settings on the printer to 'Transparency' so that the printer
 would apply enough wax to hold the design together.
 #+END_NOTES
+
 ** Final PCB Design
 [[file:img/IMG_20190630_232417.jpg]]
 
@@ -430,6 +444,9 @@ that decided, I wired the Cathode, or negative end with the stripe facing away
 from the switch pin on the column.
 As long as all the diodes are consistantly wired, it really shouldn't matter how
 you wire your matrix. You can easily flip it in the QMK firmware.
+I should also point out there is a discrepency in pin position for some of rows between the photos I used for referencing the PCB
+design and the wiring diagram shown in the guide in the repo. I attribute this
+to updates in the QMK firmware, but I don't know. It's something to be aware of.
 #+END_NOTES
 
 ** Notes on LEDs
@@ -446,9 +463,6 @@ LED.
 I wanted the LEDs to fit into the slot provided by the key switch, so I looked
 it up and the T-1 LED form factor is what you want to use. This is also the type
 of LED you would use to backlight your keycaps.
-There is also a discrepency in pin position for some of rows between the photos I used for referencing the PCB
-design and the wiring diagram shown in the guide in the repo. I attribute this
-to updates in the QMK firmware, but I don't know. It's something to be aware of.
 #+END_NOTES
 
 ** PSA: TRRS != TRS!
@@ -467,6 +481,7 @@ earbuds with microphones built in, cutting off the earbud half ande soldering
 the 2 ends together.I'm still not getting input from the left half, but I think
 that's more likely due to a short in the right half that I still need to diagnose.
 #+END_NOTES
+
 ** Firmware
 #+BEIGN_NOTES
 So I have a spare Teensy 2.0 here, and I think instead of describing the
@@ -475,8 +490,26 @@ I'll be loading QMK firmware onto this. It's the most popular and widely
 supported keyboard firmware available that I've found at least. They have a huge
 list of hardware that the project supports.
 #+END_NOTES
+
 * Was It Worth It?
-- Parts table
+
+| Parts:                            | Cost in USD: |
+|-----------------------------------+--------------|
+| 1/3 1kg Spool PLA Fil for Shells  |        10.00 |
+|-----------------------------------+--------------|
+| 70ct Key Switches                 |        53.00 |
+|-----------------------------------+--------------|
+| Rubber O-Rings for Switches       |         2.00 |
+|-----------------------------------+--------------|
+| Designer Key Caps                 |        80.00 |
+|-----------------------------------+--------------|
+| Pyralux (Flexible copper for PCB) |        30.00 |
+|-----------------------------------+--------------|
+| Electrical Components/MCU         |        65.00 |
+|-----------------------------------+--------------|
+| Total                             |         240. |
+#+TBLFM: $2=vsum(@2..@-1)
+
 * Resources
 - [[https://drop.com][Drop.com (formerly MassDrop)]]
 Crowd sourced, limited manufacturing.
