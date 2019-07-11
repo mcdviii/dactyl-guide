@@ -349,6 +349,10 @@ that reason.
 
 ** PCB Design
 [[file:img/Dactyl_8x9.png]]
+#+REVEAL: split
+[[file:img/clear-dactyl-right.jpg]]
+#+REVEAL: split
+[[file:img/clear-dactyl-left.jpg]]
 #+BEGIN_NOTES
 Oh boy. So to start with, I've combined both the left-hand & right-hand PCB
 designs onto one sheet to save on material. The way this works is there's
@@ -443,6 +447,7 @@ to updates in the QMK firmware, but I don't know. It's something to be aware of.
 
 ** Notes on LEDs
 - Use Ohm's Law to match reistors to curret rating on LEDs (Assume 5v)
+- For LEDs under keycaps use T-1 LEDs
 #+BEGIN_NOTES
 One challenge I faced was how to choose resistors to match up with the
 LEDs, and what size LEDs to buy. LEDs need resistors paired with them so that
@@ -522,8 +527,8 @@ Seems to be the primary vendor for the Let's Split PCBs
 - [[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
 
 ** Hardware & Accessories Vendors
-  [[https://digikey.com][Digikey.com - Electrical components]]
-  [[https://www.sparkfun.com/][Sparkfun.com - Hobby-grade electrical components]]
+- [[https://digikey.com][Digikey.com - Electrical components]]
+- [[https://www.sparkfun.com/][Sparkfun.com - Hobby-grade electrical components]]
 - [[https://www.mcmaster.com/][McMaster-Carr - Hardware supplier (price-compare
   Ebay first)]]
 - [[https://kbdfans.com][KBDFans.com - Lots of keyboard components, ships from China]]
