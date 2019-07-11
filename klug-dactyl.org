@@ -1,4 +1,4 @@
-#+TITLE: So What Is This Dactyl Thing & Why Should I Care?
+#+TITLE: Rochester KLUG Keyboard Meetup
 #+AUTHOR: Tim Anderson
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: fade
@@ -29,6 +29,7 @@ Twitter, so don't bother looking for me there.
 #+END_NOTES
 
 * So, what is this Dactyl Keyboard thing?
+- And why should I care?
 [[file:img/brooke_baldwin.jpg]]
 * Parameterized, Split-Hand, Concave, Columnar, Ergonomic Keyboard
 - Written in Clojure
@@ -102,14 +103,31 @@ Before I do that, I should state that I am not a doctor. I do know how to use Go
 one--but obviously, this is my understanding from my cursory
 research. It's not medical advice. Consult your doctor before
 making any changes to the ergonomics of your workstations.
+Also, I don't experience RSI issues, nor have I ever. I'm just a guy who thought
+building my own keyboard would be both a fun & educational project, with a very
+practical benefit of protecting myself from injury in the future. I take the
+usefulness of my hands pretty seriously & I want to be proactive with protecting myself from any
+unnecessary harm.
 #+END_NOTES
 
 * So, let's look at a regular keyboard
 [[file:img/KB_United_States.svg]]
-- Offset rows are holdovers from typwriters
-- QWERTY was not 'made to slow you down'
 - Single board is cost effective & efficient, but can encourage unhealthy posture
-- Compare bad hand posture to OEM keyboard
+- Offset rows are holdovers from typwriters
+#+BEGIN_NOTES
+So this is a regular keyboard, or what would be a regular keyboard if it were an
+actual image of one. The two things I want to point out here is the width of the design
+& the offset rows. The offset rows are holdovers from the days of typewriters.
+The letters were offset like that to allow for the armatures to clear each other
+when striking the paper. In terms of repetetive strain injury, this is
+unnecessary & bad, because with today's application this no longer serves any practical
+purpose, and it's bad becaus you're reaching for those keys that could
+otherwise be set in a straght vertical column, which would reduce the amount of
+reaching you need to do while typing. It might not seem like much, but the
+repetition of an unnecessary movement will probably contribute to the risk of
+RSI. After looking at the other options available I just think this is a bad,
+outdated design.
+#+END_NOTES
 
 * What is RSI?
 [[file:img/keyboard_rsi_prevent.jpg]]
@@ -121,10 +139,7 @@ computer a lot with as few negative affects as I can manage. I had the means to
 build my own badass keyboard, so I did.
 If your careers or hobbies depend on your ability to type, it
 would arguably be wise to foster that capability & invest at least some time
-into developing healther habits, before it's too late. For me, I thought
-building my own keyboard would be both a fun & educational project, but with the very
-practical benefit of helping to protect myself from injury in the future. I consider my hands to be my greatest physical asset, other than my brain. To be
-clear, I don't experience RSI issues, nor have I ever.
+into developing healther habits, before it's too late.
 #+END_NOTES
 #+BEGIN_NOTES
 The reason I went over the RSI examples is to demonstrate how a regular
@@ -292,7 +307,7 @@ switch to this in the future.
 - Looked like the most comfortable design
 - Kinesis Advantage form factor, but open source (non-commercial)
 - Also looked hella cool
-** My Reasons for Building by Hand Instead of Purchasing
+* My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
 - Sense of self-satisfaction
 - I already own a 3D printer
@@ -336,12 +351,14 @@ backing & sanding residue (220)
 - Wiring the Teensy
 - How the keyboard is controlled by the MC (key matrix)
 - Choosing LED Resistors
-**** PSA: TRRS /not/ TRS!
-- Include comparison.
+** PSA: TRRS ≠ TRS!
+[[file:img/TRRS.JPG]]
 #+BEGIN_NOTES
 
 #+END_NOTES
 ** Firmware
+- Explain ubiquity of QMK
+- Live demo
 ** How Does it Work?
 [[file:img/howkeymatriceswork.gif]]
 #+BEGIN_NOTES
@@ -353,22 +370,23 @@ backing & sanding residue (220)
 * Resources
 - [[https://drop.com][Drop.com (formerly MassDrop)]]
 Crowd sourced, limited manufacturing.
-#+BEGIN_NOTES
-
-#+END_NOTES
 - [[https://ohkeycaps.com][OhKeycaps.com]]
 Working with members of the reddit mechanical keyboard community to
 commercialize different Dactyl variations.
-- [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][Let's Split PCBs]]
+- [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][MehKee.com]]
+Seems to be the primary vendor for the Let's Split PCBs
 =I have no affiliation or experience with the above. YMMV!=
+#+BEGIN_NOTES
+
+#+END_NOTES
 ** Tutorials
-[[https://www.youtube.com/watch?v=4dZ2LKe7660
-j][- Etching with Muriatic Acid & Hydrgen Peroxide]]
+- [[https://www.youtube.com/watch?v=4dZ2LKe7660][Etching with Muriatic Acid & Hydrgen Peroxide]]
+- HongKongGhost
+- AfrotechMods
+- Hackaday Printer
 - [[https://www.instructables.com/id/Making-flexible-PCBs-with-a-laser-jet-printer-or-c/]]
 - [[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
-- Hackaday Printer
-- AfrotechMods
--
+
 ** Hardware & Accessories Vendors
 - [[https://kbdfans.com]]
 - [[https://aliexpress.com]]
