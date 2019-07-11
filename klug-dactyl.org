@@ -3,14 +3,12 @@
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: fade
 #+REVEAL_MAX_SCALE: 0.85
+#+REVEAL_MARGIN: 0.2
 #+OPTIONS: reveal_slide_number:nil toc:nil num:nil
 
 #+BEGIN_NOTES
- TODO Gather Raw Data for Presentation
  Prices
- Ali Express for Keycap Price
  Digikey for Hardware Cost
- Collect Info & Tutorial Sources for
  #+END_NOTES
 
 * Tim Anderson
@@ -54,7 +52,8 @@ could find some clues to that on his Twitter page. There are some obvious
 similarities between this and another keyboard commercially available that I'll
 show later on, and I think he drew inspiration & motivation from that.
 
-If you're wondering what it means, dactyl means finger, toe or digit.
+If you're wondering what dactyl means, it's defined by the [[https://www.thefreedictionary.com/dactyl][freeonlindictionary]]
+as: finger, toe or digit.
 
 The really interesting thing about this project is that the mesh was written in Lisp. If
 you're not familiar with OpenSCAD, it's free software which interprets functions
@@ -89,25 +88,23 @@ most challenging DIY keyboard projects you could take on.
 #+END_NOTES
 
 * Why Tho?
+#+REVEAL :frag
+- In short, because I can
 #+BEGIN_NOTES
 During my research into this other ergo keyboards I see a recurring
 question: "Why would you need/want that.", and I think that it's a fair question.
 It smacks of iPhone ownership or RGB lighting: Do you really need that? To the
 outside observer it might look like an expensive, showy & unnecessary gadget.
 But I think there are real health benefits to using a proper ergonomic keyboard,
-and befor I go any further into my build I'd like to justify myself in the eye
+and before I go any further into my build I'd like to justify myself in the eye
 of reason.
-#+END_NOTES
-#+BEGIN_NOTES
-Before I do that, I should state that I am not a doctor. I do know how to use Google, so I might as well be
-one--but obviously, this is my understanding from my cursory
-research. It's not medical advice. Consult your doctor before
-making any changes to the ergonomics of your workstations.
-Also, I don't experience RSI issues, nor have I ever. I'm just a guy who thought
+I don't experience RSI issues, nor have I ever. I'm just a guy who thought
 building my own keyboard would be both a fun & educational project, with a very
 practical benefit of protecting myself from injury in the future. I take the
 usefulness of my hands pretty seriously & I want to be proactive with protecting myself from any
-unnecessary harm.
+unnecessary harm. I use a computer a lot, and I would like to continue using a
+computer a lot with as few negative affects as I can manage. I had the means to
+build my own badass keyboard, so I did.
 #+END_NOTES
 
 * So, let's look at a regular keyboard
@@ -127,26 +124,19 @@ reaching you need to do while typing. It might not seem like much, but the
 repetition of an unnecessary movement will probably contribute to the risk of
 RSI. After looking at the other options available I just think this is a bad,
 outdated design.
-#+END_NOTES
-
-* What is RSI?
-[[file:img/keyboard_rsi_prevent.jpg]]
-- Keep your hands flat and straight out from your shoulders (neutral position)
-#+BEGIN_NOTES
-But, over the past year I've just decided to make a concious effort to avoid them given my hobbies
-& future plans. I use a computer a lot, and I would like to continue using a
-computer a lot with as few negative affects as I can manage. I had the means to
-build my own badass keyboard, so I did.
 If your careers or hobbies depend on your ability to type, it
 would arguably be wise to foster that capability & invest at least some time
 into developing healther habits, before it's too late.
 #+END_NOTES
+
+* Good Habits Vs. Bad
+[[file:img/keyboard_rsi_prevent.jpg]]
 #+BEGIN_NOTES
-The reason I went over the RSI examples is to demonstrate how a regular
-keyboard encourages a certain posture, and hopefully you can see how the designs of these other ergonomic keyboards I'm about to
-show you are informed by those issues, and maybe you can see how they attempt to
-mitigate some of the bad habits one might form while typing through better
-design. Most of these are other open source ergo keyboards that you can build yourself.
+The reason I've included this is to demonstrate how a regular
+keyboard can encourage a certain posture, and hopefully you can see how the designs of these other ergonomic keyboards I'm about to
+show you are informed by those issues. I think you'll see how they attempt to
+mitigate some of these habits through better design.
+Most of these are other open source keyboards that you can build yourself.
 #+END_NOTES
 
 * Notable Mentions
@@ -313,56 +303,144 @@ switch to this in the future.
 - I already own a 3D printer
 - Screw paying someone else >$300, I'll just build my own!
 - One year later joke
-* Build Overview
-** Shell/Case & Hardware
-- Time
-- Apologize for lack of media
-- Print process involved trial & error. Segway into 3D print & support material.
-- Hardware dimensions & heating countersunk screws. Make point of heatshrink on standoffs.
-- Hardware, clearance & dimensions
 #+BEGIN_NOTES
 
 #+END_NOTES
+* Build Overview
+** Shell/Case
+- The body of the keyboard is 3D printed by me
+- There are 4 parts to print, each took 21 hours to complete on a RepRap style
+  Cartesian 3D printer
+- Material is PLA infused with wood fibers.
+#+BEGIN_NOTES
+The body of the keyboard is 3D printed in PLA with infused with wood fibers, so
+at some point I want to try and stain it. There is a top and bottom to each
+half, and each top and bottom piece took 21 hours each to print. My main
+challenge here was finding the correct amount of support material to use. For a
+slicer I used Slic3r, and your options for support material are somewhat
+limited. In my first attempt I used too high of a resolution and the support was
+so fine that it was impossible to separate from the print. My second attempt was
+the bottom left half and I think it turned out pretty good.
+#+END_NOTES
+** Hardware
+[[file:img/IMG_20190711_075410.jpg]]
+#+REVEAL: split
+[[file:img/IMG_20190711_075433.jpg]]
+#+BEGIN_NOTES
+For hardware connecting the halves, there was no documentation for it so I
+referenced some build videos on YouTube and dug through my collection of
+computer hardware & screws and found that 3mm female motherboard standoffs that
+were 6mm tall worked great with these 3mm countersunk screws. I took a soldering
+iron and heated the screws up while pushing them into the hole in the plastic to
+create a countersink. Without that countersink there would be clearance issues
+with keycaps, so the keycaps would hit the head of the screw when pressed down.
+I also added some 1/8" heatshrink tubing to the standoffs so that they wouldn't
+cause any shorts with the wiring.
+#+END_NOTES
 
-** Switches & Keycaps
-- Fits Cherry MX switches, explain what they are
+** Switches
+- Fits Cherry MX switches
+#+BEGIN_NOTES
+So Cherry MX is the most popular switch manufacturer on the market.
+#+END_NOTES
+** Keycaps
 - Go over keycap profiles
 - Keycap material, count & price
+** PCB Design
+#+BEGIN_NOTES
+So this was obviously the most tedious part. To start with, some of the
+designs in the PCB design are flipped the wrong way around, and for some reason
+they weren't consistantly flipped. I found this out after my first etching
+attempt and I had cut out all of the individual pieces and was trying to apply
+them to be soldered.
+If you were using the toner tranfer method it would make sense to mirror the
+entire design, but some pieces were flipped one way while others
+were correctly oriented. I searched imgur.com for completed builds and was able
+to find 2 very nice photos of a nearly completed build.
+I used those to cross-reference the design, and I used Inkscape to flip each
+piece individually.
+#+END_NOTES
 ** Etching
+- Xerox printer, not direct print
 - 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (Marketed as 'safer' Muriatic
   Acid, found on Amazon.)
 - All etching tutorial info (Storage & reuse)
 - PCB etching (I probably went the most expensive route.)
 - PCB design
+
 *** Etching Process
 #+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
 #+BEGIN_NOTES
-Make note of 'adding the acid', copper lifting, color of solution, Kapton tape
-backing & sanding residue (220)
+Make sure to 'add the acid', you can see the copper lifting here, you'll notice
+the color of solution turning green with copper at this point, here you see the Kapton tape
+backing and some remaining copper, after you're done you should put the sheet in
+a water bath to stop the acidic reaction and clean any off any residues left
+from the precess. I chose to sand off the wax with 220 grit sandpaper because it
+was mixing with the solder and I got annoyed by it. You probably want some kind
+of coating over the copper to prevent corrosion.
 #+END_NOTES
-** PCB & Wiring
-- The circuit design in the repo is inaccurate. I had to flip around some of
-  the designs because they were backwards. I didn't find this out until after my
-  first attempt at etching. Luckily I had another sheet of Pyralux that I bought
-  in case I encountered those kinds of problems.
-- Had to cross reference wiring with imgur images.
-- Resistors for LEDs
-- Which way to wire the diodes
-- Wiring the Teensy
-- How the keyboard is controlled by the MC (key matrix)
-- Choosing LED Resistors
-** PSA: TRRS ≠ TRS!
+** Wiring
+#+BEGIN_NOTES
+Oh boy. One challenge I faced was how to choose resistors to match up with the
+LEDs, and what size LEDs to buy. LEDs need resistors paired with them so that
+they draw a steady current and don't become overloaded. You won't likely be able
+to find the current draw unless you purchase them with a documented current
+draw. I got mine from Digikey.com. I used on online calculator to calculate the
+correct resistance, but the formula is pretty simple. R=I/V. Almost all USB hubs
+are going to power your devices at 5V DC, so if you take the current rating for
+your LED and devide it by 5V you should get the resistance value needed for your
+LED.
+I wanted the LEDs to fit into the slot provided by the key switch, so I looked
+it up and the T-1 LED form factor is what you want to use. This is also the type
+of LED you would use to backlight your keycaps.
+There is also a discrepency in pin position for some of rows between the photos I used for referencing the PCB
+design and the wiring diagram shown in the guide in the repo. I attribute this
+to updates in the QMK firmware, but I don't know. It's something to be aware of.
+#+END_NOTES
+** PSA: TRRS != TRS!
 [[file:img/TRRS.JPG]]
 #+BEGIN_NOTES
-
+So when I ran my first tests after completing the wiring ane firmware, OSX kept
+complaining about the USB device drawing too much current. It was selfishly
+holding power to the USB hub hostage until I unplugged the device. This is why.
+This is the cable that connects the two halves together so the MC can
+communicate with the left half. The letters TRS stand for Tip, Ring & Sleeve.
+The documentation calls for a TRRS cable. Originally I mistook it for a basic
+3.5mm stereo audio connector, but as you can see it doesn't have the necessary
+contact points and was causing a short inside the input jacks. The way I solved
+this on short notice was by running to Menards and buying 2 sets of cheap
+earbuds with microphones built in, cutting off the earbud half ande soldering
+the 2 ends together.I'm still not getting input from the left half, but I think
+that's more likely due to a short in the right half that I still need to diagnose.
 #+END_NOTES
 ** Firmware
-- Explain ubiquity of QMK
-- Live demo
+#+BEIGN_NOTES
+So I have a spare Teensy 2.0 here, and I think instead of describing the
+flashing process I'll just show you.
+I'll be loading QMK firmware onto this. It's the most popular and widely
+supported keyboard firmware available that I've found at least. They have a huge
+list of hardware that the project supports.
+#+END_NOTES
 ** How Does it Work?
 [[file:img/howkeymatriceswork.gif]]
 #+BEGIN_NOTES
-
+So there are two ways in which you can wire up your key matrix, which are
+row-driven & column-driven. A row-driven matrix is one where current travels
+from the microcontroller, through the switch & diode & then back into the MC via
+the column. A column-driven matrix is the inverse.
+While wiring the key matrix, one big challenge was trying to figure out the orientation of the diodes.
+If you're not familiar with what a diode is, it basically works to only allow
+current to flow in one direction. The way they're used here is to insure that
+the input and output sent and recieved by the microcontroller only flows in one
+direction.
+The orientation of the diodes is entirely dependent on how you wire your rows &
+columns and whether you choose to send output through the switch from the rows
+or the columns. In my case I went with a row-driven matrix, as that seems to be most common, and I
+read allusions to it being a more efficient option in the QMK firmware. With
+that decided, I wired the Cathode, or negative end with the stripe facing away
+from the switch pin on the column.
+As long as all the diodes are consistantly wired, it really shouldn't matter how
+you wire your matrix. You can easily flip it in the QMK firmware.
 #+END_NOTES
 
 * Was It Worth It?
@@ -381,9 +459,8 @@ Seems to be the primary vendor for the Let's Split PCBs
 #+END_NOTES
 ** Tutorials
 - [[https://www.youtube.com/watch?v=4dZ2LKe7660][Etching with Muriatic Acid & Hydrgen Peroxide]]
-- HongKongGhost
-- AfrotechMods
-- Hackaday Printer
+- [[https://www.youtube.com/watch?v=1nwnnMoudu0][HongKongGhost]]
+- [[https://www.youtube.com/watch?v=NfcgA1axPLo][AfrotechMods on resistanc]]
 - [[https://www.instructables.com/id/Making-flexible-PCBs-with-a-laser-jet-printer-or-c/]]
 - [[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
 
