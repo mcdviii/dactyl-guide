@@ -407,7 +407,7 @@ would apply enough wax to hold the design together.
 ** Etching
 #+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
 #+REVEAL: split
-[[file:img/IMG_20190630_232417.jpg]]
+[[file:img/IMG_20190701_124022.jpg]]
 #+BEGIN_NOTES
 For etching I used about 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic
 (Marketed as 'safer' Muriatic Acid, found on Amazon.). This seemed to be the
