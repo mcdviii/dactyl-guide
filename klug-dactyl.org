@@ -89,7 +89,7 @@ most challenging DIY keyboard projects you could take on.
 
 * Why Tho?
 #+REVEAL :frag
-- In short, because I can
+- In short, because I can.
 #+BEGIN_NOTES
 During my research into this other ergo keyboards I see a recurring
 question: "Why would you need/want that.", and I think that it's a fair question.
@@ -102,8 +102,8 @@ I don't experience RSI issues, nor have I ever. I'm just a guy who thought
 building my own keyboard would be both a fun & educational project, with a very
 practical benefit of protecting myself from injury in the future. I take the
 usefulness of my hands pretty seriously & I want to be proactive with protecting myself from any
-unnecessary harm. I use a computer a lot, and I would like to continue using a
-computer a lot with as few negative affects as I can manage. I had the means to
+unnecessary risks. I use a computer a lot, and I would like to continue using a
+computer a lot with as few negative affects as possible. I had the means to
 build my own badass keyboard, so I did.
 #+END_NOTES
 
@@ -118,15 +118,16 @@ actual image of one. The two things I want to point out here is the width of the
 The letters were offset like that to allow for the armatures to clear each other
 when striking the paper. In terms of repetetive strain injury, this is
 unnecessary & bad, because with today's application this no longer serves any practical
-purpose, and it's bad becaus you're reaching for those keys that could
-otherwise be set in a straght vertical column, which would reduce the amount of
-reaching you need to do while typing. It might not seem like much, but the
+purpose, and it's bad because you're reaching for those keys that could
+be closer to your fingers by being placed in a straght vertical column, which would reduce the amount of
+reaching you would need to do while typing. It might not seem like much, but the
 repetition of an unnecessary movement will probably contribute to the risk of
 RSI. After looking at the other options available I just think this is a bad,
 outdated design.
 If your careers or hobbies depend on your ability to type, it
-would arguably be wise to foster that capability & invest at least some time
-into developing healther habits, before it's too late.
+would arguably be a good idea to at least invest some time
+into developing healther habits, before it's too late. For me, I thought a good
+ergo keyboard design could help me to do that.
 #+END_NOTES
 
 * Good Habits Vs. Bad
@@ -134,7 +135,7 @@ into developing healther habits, before it's too late.
 #+BEGIN_NOTES
 The reason I've included this is to demonstrate how a regular
 keyboard can encourage a certain posture, and hopefully you can see how the designs of these other ergonomic keyboards I'm about to
-show you are informed by those issues. I think you'll see how they attempt to
+show you are informed by these issues. I think you'll see how they attempt to
 mitigate some of these habits through better design.
 Most of these are other open source keyboards that you can build yourself.
 #+END_NOTES
@@ -296,16 +297,13 @@ switch to this in the future.
 - Open Source
 - Looked like the most comfortable design
 - Kinesis Advantage form factor, but open source (non-commercial)
-- Also looked hella cool
+- Looks hella cool
 * My Reasons for Building by Hand Instead of Purchasing
 - At the time there were none being manufactured
 - Sense of self-satisfaction
-- I already own a 3D printer
-- Screw paying someone else >$300, I'll just build my own!
-- One year later joke
-#+BEGIN_NOTES
-
-#+END_NOTES
+- I already own a 3D printer: screw paying someone else >$300, I'll just build
+  my own!
+* One Year Later
 * Build Overview
 ** Shell/Case
 - The body of the keyboard is 3D printed by me
@@ -347,30 +345,62 @@ So Cherry MX is the most popular switch manufacturer on the market.
 - Go over keycap profiles
 - Keycap material, count & price
 ** PCB Design
+[[file:assets/Dactyl_8x9.svg]]
 #+BEGIN_NOTES
-So this was obviously the most tedious part. To start with, some of the
-designs in the PCB design are flipped the wrong way around, and for some reason
+Oh boy. So to start with, I've combined both the left-hand & right-hand PCB
+designs onto one sheet to save on material. The way this works is there's
+something called Pyralux you can get that is basically a thin sheet of copper
+with a kapton tape backing. This is what I've used for mine. We'll get into the
+etching later.
+Another thing I'll note about the PCB designs in the original repo is that
+some of the pieces are flipped the wrong way around, and for some reason
 they weren't consistantly flipped. I found this out after my first etching
 attempt and I had cut out all of the individual pieces and was trying to apply
 them to be soldered.
-If you were using the toner tranfer method it would make sense to mirror the
-entire design, but some pieces were flipped one way while others
+If you were using the toner tranfer method, where you would use a laser printer
+and iron the paper onto your workpiece to leave a toner deposit in the shape of
+your circuit, it would make sense to mirror the entire design, but some pieces were flipped one way while others
 were correctly oriented. I searched imgur.com for completed builds and was able
 to find 2 very nice photos of a nearly completed build.
 I used those to cross-reference the design, and I used Inkscape to flip each
 piece individually.
 #+END_NOTES
-** Etching
-- Xerox printer, not direct print
-- 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic (Marketed as 'safer' Muriatic
-  Acid, found on Amazon.)
-- All etching tutorial info (Storage & reuse)
-- PCB etching (I probably went the most expensive route.)
-- PCB design
-
-*** Etching Process
-#+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
+** Xerox Printer
+[[file:img/IMG_20190711_074742.jpg]]
 #+BEGIN_NOTES
+In many tutorials, you'll read references to printing circuit designs onto
+Pyralux with toner laser printers at Kinkos. This is incorrect. What they're
+actually referring to are solid ink printers manufactured by Xerox. These
+commercial printers use a type of wax for ink, and are actually kind of hard to
+come by. I was able to find a used one on Craigslist that was having paper
+jamming issues that I picked up for $50 from a guy in Rogers, MN. I found an
+official service manual on manualslib.com & pinpointed the offending sensors for the
+paper jamming issue and replaced them with parts sourced from ebay.
+#+END_NOTES
+** Preparing the Copper for the Design
+[[file:img/IMG_20190630_231134.jpg]]
+#+BEGIN_NOTES
+To prepare the copper I scuffed the surface of the copper & rubbed it down with
+90% Isoprpyl Alcohol. I also had to use double sided tape to center the Pyralux
+sheet at the top of a piece of card stock, so that the printer would recognize
+the sheet as a normal 8 1/2" X 11" piece of paper. The last thing I did was
+change the print settings on the printer to 'Transparency' so that the printer
+would apply enough wax to hold the design together.
+#+END_NOTES
+** Final PCB Design
+[[file:img/IMG_20190630_232417.jpg]]
+
+** Etching
+#+REVEAL_HTML: <section><video controls><source data-src="media/Etching-resize.mp4" type="video/mp4" /></video></section>
+#+REVEAL: split
+[[file:img/IMG_20190630_232417.jpg]]
+#+BEGIN_NOTES
+For etching I used about 1:1 ratio of 3% Hydrogen Peroxide & Acid Magic
+(Marketed as 'safer' Muriatic Acid, found on Amazon.). This seemed to be the
+safest and most accessable option over ferric chloride. You can reuse the
+solution by monitoring the amounts of each ratio in the solution, but you need
+to be very careful about it because you might end up creating chlorine gas.
+
 Make sure to 'add the acid', you can see the copper lifting here, you'll notice
 the color of solution turning green with copper at this point, here you see the Kapton tape
 backing and some remaining copper, after you're done you should put the sheet in
@@ -379,7 +409,30 @@ from the precess. I chose to sand off the wax with 220 grit sandpaper because it
 was mixing with the solder and I got annoyed by it. You probably want some kind
 of coating over the copper to prevent corrosion.
 #+END_NOTES
-** Wiring
+
+** How Does it Work?
+[[file:img/howkeymatriceswork.gif]]
+#+BEGIN_NOTES
+So there are two ways in which you can wire up your key matrix, which are
+row-driven & column-driven. A row-driven matrix is one where current travels
+from the microcontroller, through the switch & diode & then back into the MC via
+the column. A column-driven matrix is the inverse.
+While wiring the key matrix, one big challenge was trying to figure out the orientation of the diodes.
+If you're not familiar with what a diode is, it basically works to only allow
+current to flow in one direction. The way they're used here is to insure that
+the input and output sent and recieved by the microcontroller only flows in one
+direction.
+The orientation of the diodes is entirely dependent on how you wire your rows &
+columns and whether you choose to send output through the switch from the rows
+or the columns. In my case I went with a row-driven matrix, as that seems to be most common, and I
+read allusions to it being a more efficient option in the QMK firmware. With
+that decided, I wired the Cathode, or negative end with the stripe facing away
+from the switch pin on the column.
+As long as all the diodes are consistantly wired, it really shouldn't matter how
+you wire your matrix. You can easily flip it in the QMK firmware.
+#+END_NOTES
+
+** Notes on LEDs
 #+BEGIN_NOTES
 Oh boy. One challenge I faced was how to choose resistors to match up with the
 LEDs, and what size LEDs to buy. LEDs need resistors paired with them so that
@@ -397,6 +450,7 @@ There is also a discrepency in pin position for some of rows between the photos 
 design and the wiring diagram shown in the guide in the repo. I attribute this
 to updates in the QMK firmware, but I don't know. It's something to be aware of.
 #+END_NOTES
+
 ** PSA: TRRS != TRS!
 [[file:img/TRRS.JPG]]
 #+BEGIN_NOTES
@@ -421,28 +475,6 @@ I'll be loading QMK firmware onto this. It's the most popular and widely
 supported keyboard firmware available that I've found at least. They have a huge
 list of hardware that the project supports.
 #+END_NOTES
-** How Does it Work?
-[[file:img/howkeymatriceswork.gif]]
-#+BEGIN_NOTES
-So there are two ways in which you can wire up your key matrix, which are
-row-driven & column-driven. A row-driven matrix is one where current travels
-from the microcontroller, through the switch & diode & then back into the MC via
-the column. A column-driven matrix is the inverse.
-While wiring the key matrix, one big challenge was trying to figure out the orientation of the diodes.
-If you're not familiar with what a diode is, it basically works to only allow
-current to flow in one direction. The way they're used here is to insure that
-the input and output sent and recieved by the microcontroller only flows in one
-direction.
-The orientation of the diodes is entirely dependent on how you wire your rows &
-columns and whether you choose to send output through the switch from the rows
-or the columns. In my case I went with a row-driven matrix, as that seems to be most common, and I
-read allusions to it being a more efficient option in the QMK firmware. With
-that decided, I wired the Cathode, or negative end with the stripe facing away
-from the switch pin on the column.
-As long as all the diodes are consistantly wired, it really shouldn't matter how
-you wire your matrix. You can easily flip it in the QMK firmware.
-#+END_NOTES
-
 * Was It Worth It?
 - Parts table
 * Resources
@@ -454,9 +486,7 @@ commercialize different Dactyl variations.
 - [[https://mehkee.com/products/lets-split-pcb?variant=46050392207][MehKee.com]]
 Seems to be the primary vendor for the Let's Split PCBs
 =I have no affiliation or experience with the above. YMMV!=
-#+BEGIN_NOTES
 
-#+END_NOTES
 ** Tutorials
 - [[https://www.youtube.com/watch?v=4dZ2LKe7660][Etching with Muriatic Acid & Hydrgen Peroxide]]
 - [[https://www.youtube.com/watch?v=1nwnnMoudu0][HongKongGhost]]
@@ -465,8 +495,12 @@ Seems to be the primary vendor for the Let's Split PCBs
 - [[https://www.instructables.com/id/DIY-Flexible-Printed-Circuits/]]
 
 ** Hardware & Accessories Vendors
-- [[https://kbdfans.com]]
-- [[https://aliexpress.com]]
-  [[https://digikey.com]]
-- [[https://pimpmykeyboard.com/]]
-- [[https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=9]]
+  [[https://digikey.com][Digikey.com - Electrical components]]
+  [[https://www.sparkfun.com/][Sparkfun.com - Hobby-grade electrical components]]
+- [[https://www.mcmaster.com/][McMaster-Carr - Hardware supplier (price-compare
+  Ebay first)]]
+- [[https://kbdfans.com][KBDFans.com - Lots of keyboard components, ships from China]]
+- [[https://aliexpress.com][AliExpress.com - China's Amazon.com, lots of
+  hardware including keyboard supplies]]
+- [[https://pimpmykeyboard.com/][PimpMyKeyboard.com - Another keyboard component
+  vendor]]
